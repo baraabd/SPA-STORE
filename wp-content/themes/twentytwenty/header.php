@@ -61,7 +61,7 @@
 						<?php
 							// Site title or logo.
 							twentytwenty_site_logo();
-							echo "banan00000000000rrrr000000000000";
+							echo "banan00000000000rrrrefefefefefefefe000000000000";
 							// Site description.
 							twentytwenty_site_description();
 
