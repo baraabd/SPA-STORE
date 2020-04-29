@@ -1,0 +1,511 @@
+# Copyright (C) 2020 klarna-checkout-for-woocommerce
+# This file is distributed under the same license as the klarna-checkout-for-woocommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: klarna-checkout-for-woocommerce\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Krokedil <info@krokedil.se>\n"
+"Last-Translator: Krokedil <info@krokedil.se>\n"
+"Report-Msgid-Bugs-To: http://krokedil.se\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../classes/admin/class-kco-admin-notices.php:92
+msgid "You need to specify a terms page in WooCommerce Settings to be able to use Klarna Checkout."
+msgstr ""
+
+#: ../classes/admin/class-kco-admin-notices.php:109
+msgid "You need to enable and configure https to be able to use Klarna Checkout."
+msgstr ""
+
+#. translators: %s: URL.
+#: ../classes/admin/class-kco-admin-notices.php:129
+msgid "You need to tick the checkbox <i>When creating an account, automatically generate a username from the customer's email address</i> when having the <i>Allow customers to create an account during checkout</i> setting activated. This can be changed in the <a href=\"%s\">Accounts & Privacy tab"
+msgstr ""
+
+#. translators: %s: URL.
+#: ../classes/admin/class-kco-admin-notices.php:139
+msgid "You need to tick the checkbox <i>When creating an account, automatically generate an account password</i> when having the <i>Allow customers to create an account during checkout</i> setting activated. This can be changed in the <a href=\"%s\">Accounts & Privacy tab"
+msgstr ""
+
+#. translators: %s: URL.
+#: ../classes/admin/class-kco-admin-notices.php:158
+msgid "It looks like you are using the Autoptimize plugin and have enabled their <i>Optimize shop cart/checkout</i> setting. This might cause conflicts with the Klarna Checkout plugin. You can deactivate this feature in the  <a href=\"%s\">Autoptimize settings page</a> (<i>→ Show advanced settings → Misc section</i>)."
+msgstr ""
+
+#: ../classes/admin/class-kco-admin-notices.php:177
+msgid "It looks as if you have a Optimizing or Caching plugin installed. Please make sure to not enable these features on the checkout page, as this can cause issues with Klarna Checkout. The checkout page should never be minified, concatenated, or cached"
+msgstr ""
+
+#. translators: %s: URL.
+#: ../classes/admin/class-kco-admin-notices.php:199
+msgid "The <i>Klarna upstream for WooCommerce</i> plugin is now available as <i>Klarna On-site Messaging for WooCommerce</i>. Please deactivate and delete <i>Klarna upstream for WooCommerce</i> and then install and activate <i>Klarna On-site Messaging for WooCommerce</i> via the new <a href=\"%s\">Klarna Add-ons page</a>.."
+msgstr ""
+
+#: ../classes/admin/class-klarna-for-woocommerce-addons.php:67, ../classes/admin/class-klarna-for-woocommerce-addons.php:67, ../classes/admin/class-klarna-for-woocommerce-addons.php:81, ../classes/admin/class-klarna-for-woocommerce-addons.php:389
+msgid "Klarna Add-ons"
+msgstr ""
+
+#: ../classes/admin/class-klarna-for-woocommerce-addons.php:130
+msgid "Please install an add-on to be able to see the settings."
+msgstr ""
+
+#: ../classes/admin/class-klarna-for-woocommerce-addons.php:188
+msgid "Install"
+msgstr ""
+
+#: ../classes/admin/class-klarna-for-woocommerce-addons.php:188
+msgid "Not installed"
+msgstr ""
+
+#: ../classes/admin/class-klarna-for-woocommerce-addons.php:191
+msgid "Activated"
+msgstr ""
+
+#: ../classes/admin/class-klarna-for-woocommerce-addons.php:194
+msgid "Deactivated"
+msgstr ""
+
+#: ../classes/admin/class-klarna-for-woocommerce-addons.php:390, ../klarna-checkout-for-woocommerce.php:175
+msgid "Settings"
+msgstr ""
+
+#: ../classes/admin/class-klarna-skin.php:87
+msgid "There was an error installing the addon. Please try again."
+msgstr ""
+
+#. translators: Klarna order ID.
+#. translators: Klarna order ID.
+#. translators: Klarna order ID.
+#: ../classes/class-kco-api-callbacks.php:154, ../classes/class-kco-api-callbacks.php:494, ../includes/kco-functions.php:511
+msgid "Payment via Klarna Checkout, order ID: %s"
+msgstr ""
+
+#: ../classes/class-kco-api-callbacks.php:157, ../classes/class-kco-api-callbacks.php:497
+msgid "Klarna Checkout order was rejected."
+msgstr ""
+
+#. translators: Klarna order ID.
+#. translators: Klarna order ID.
+#. translators: Klarna order ID.
+#: ../classes/class-kco-api-callbacks.php:160, ../classes/class-kco-api-callbacks.php:500, ../includes/kco-functions.php:518
+msgid "Klarna order is under review, order ID: %s."
+msgstr ""
+
+#: ../classes/class-kco-api-callbacks.php:489
+msgid "Order created via Klarna Checkout API callback. Please verify the order in Klarnas system."
+msgstr ""
+
+#. translators: %s: Klarna order amount.
+#: ../classes/class-kco-api-callbacks.php:514
+msgid "Order needs manual review, WooCommerce total and Klarna total do not match. Klarna order total: %s."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:25
+msgid "Enable/Disable"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:26
+msgid "Enable Klarna Checkout"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:32
+msgid "Title"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:34
+msgid "Payment method title."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:39
+msgid "Description"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:41
+msgid "Payment method description."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:46
+msgid "Other payment method button text"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:48
+msgid "Customize the <em>Select another payment method</em> button text that is displayed in checkout if using other payment methods than Klarna Checkout. Leave blank to use the default (and translatable) text."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:53
+msgid "Test mode"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:54
+msgid "Enable Test Mode"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:56
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:61
+msgid "Logging"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:62
+msgid "Log debug messages"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:64
+msgid "Save debug messages to the WooCommerce System Status log."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:74, ../classes/class-kco-fields.php:107
+msgid "Production Username (UID)"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:76, ../classes/class-kco-fields.php:83, ../classes/class-kco-fields.php:90, ../classes/class-kco-fields.php:97
+msgid "Get your API keys from your Klarna Checkout merchant account for Europe."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:81, ../classes/class-kco-fields.php:114
+msgid "Production Password"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:88, ../classes/class-kco-fields.php:121
+msgid "Test Username (UID)"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:95, ../classes/class-kco-fields.php:128
+msgid "Test Password"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:109, ../classes/class-kco-fields.php:116, ../classes/class-kco-fields.php:123, ../classes/class-kco-fields.php:130
+msgid "Get your API keys from your Klarna Checkout merchant account for US."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:136
+msgid "Shipping settings"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:140
+msgid "Separate shipping address"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:141
+msgid "Allow separate shipping address"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:143
+msgid "If this option is checked, customers will be able to enter shipping address different than their billing address in checkout."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:148
+msgid "Shipping methods in iframe"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:149
+msgid "Display Shipping methods in Klarna iframe."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:151
+msgid "If this option is checked, selection of shipping methods is done in Klarna iframe. Shipping price and name of the selected shipping method will still be displayed in WooCommerce order review."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:156
+msgid "Shipping details"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:157
+msgid "Shipping details note shown to customer"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:159
+msgid "Will be shown to customer in thank you page."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:165
+msgid "Checkout settings"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:169
+msgid "Product URLs"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:171
+msgid "Send product and product image URLs to Klarna"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:176
+msgid "Date of birth mandatory"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:177
+msgid "Make customer date of birth mandatory"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:179
+msgid "If checked, the customer cannot skip date of birth."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:184
+msgid "Allowed Customer Types"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:187
+msgid "B2C only"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:188
+msgid "B2B only"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:189
+msgid "B2C & B2B (defaults to B2C)"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:190
+msgid "B2B & B2C (defaults to B2B)"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:192
+msgid "Select if you want to sell both to consumers and companies or only to one of them (available for SE, NO and FI). You need to contact Klarna directly to activate this with your account."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:197
+msgid "Title mandatory (GB)"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:198
+msgid "Make customer title mandatory"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:200
+msgid "If unchecked, title becomes optional. Only available for orders for country GB."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:205
+msgid "Show prefill consent notice"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:206
+msgid "Only applicable for stores based in Germany and Austria"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:211
+msgid "Display quantity fields"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:212
+msgid "Display the quantity selection fields on the checkout page"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:214
+msgid "If this option is checked, the customer will be able to change the quantity of a product purchased on the checkout page as they would on the cart page."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:220
+msgid "Color Settings"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:224
+msgid "Checkout button color"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:226
+msgid "Checkout page button color"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:231
+msgid "Checkout button text color"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:233
+msgid "Checkout page button text color"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:238
+msgid "Checkout checkbox color"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:240
+msgid "Checkout page checkbox color"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:245
+msgid "Checkout checkbox checkmark color"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:247
+msgid "Checkout page checkbox checkmark color"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:252
+msgid "Checkout header color"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:254
+msgid "Checkout page header color"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:259
+msgid "Checkout link color"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:261
+msgid "Checkout page link color"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:266
+msgid "Checkout radius border (px)"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:268
+msgid "Checkout page radius border in pixels"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:281
+msgid "Checkout privacy policy text"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:282
+msgid "Select if you want to show the <em>Checkout privacy policy</em> text on the checkout page, and where you want to display it."
+msgstr ""
+
+#: ../classes/class-kco-fields.php:286
+msgid "Do not display"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:287
+msgid "Display above checkout"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:288
+msgid "Display below checkout"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:292
+msgid "Terms and conditions checkbox"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:293
+msgid "Add a terms and conditions checkbox inside Klarna checkout iframe"
+msgstr ""
+
+#: ../classes/class-kco-fields.php:295
+msgid "To change the text navigate to → Appearance → Customize → WooCommerce → Checkout."
+msgstr ""
+
+#: ../classes/class-kco-gateway.php:24, ../includes/kco-status-report.php:17
+msgid "Klarna Checkout"
+msgstr ""
+
+#: ../classes/class-kco-gateway.php:25
+msgid "The current Klarna Checkout replaces standard WooCommerce checkout page."
+msgstr ""
+
+#: ../classes/class-kco-gateway.php:282
+msgid "Please fill in all required checkout fields."
+msgstr ""
+
+#: ../classes/class-kco-gateway.php:285
+msgid "Please try again, something went wrong with processing your order."
+msgstr ""
+
+#: ../classes/class-kco-gateway.php:501
+msgid "Order address should not be changed and any changes you make will not be reflected in Klarna system."
+msgstr ""
+
+#. translators: Klarna order id.
+#: ../classes/class-kco-subscription.php:225
+msgid "Subscription payment made with Klarna. Klarna order id: %s"
+msgstr ""
+
+#. translators: Error message.
+#: ../classes/class-kco-subscription.php:232
+msgid "Subscription payment failed with Klarna. Message: %1$s"
+msgstr ""
+
+#. translators: %s Klarna recurring token.
+#: ../classes/class-kco-subscription.php:303
+msgid "Payment method changed via Klarna Checkout. New recurring token for subscription: %s"
+msgstr ""
+
+#: ../classes/class-kco-subscription.php:308
+msgid "Could not retrieve new Klarna recurring token for subscription when customer changed payment method. Read the log for detailed information."
+msgstr ""
+
+#: ../classes/class-kco-subscription.php:328
+msgid "Thank you, your subscription payment method is now updated."
+msgstr ""
+
+#: ../classes/class-kco-templates.php:150
+msgid "Failed to load Klarna Checkout template file."
+msgstr ""
+
+#: ../classes/requests/helpers/class-kco-request-cart.php:225, ../classes/requests/helpers/class-kco-request-cart.php:226
+msgid "Sales Tax"
+msgstr ""
+
+#: ../classes/requests/helpers/class-kco-request-cart.php:255, ../classes/requests/helpers/class-kco-request-cart.php:258
+msgid "Gift card"
+msgstr ""
+
+#: ../classes/requests/helpers/class-kco-request-cart.php:315
+msgid "giftcard"
+msgstr ""
+
+#: ../classes/requests/helpers/class-kco-request-cart.php:630, ../classes/requests/helpers/class-kco-request-cart.php:658
+msgid "Shipping"
+msgstr ""
+
+#: ../includes/kco-functions.php:77
+msgid "Select another payment method"
+msgstr ""
+
+#: ../includes/kco-functions.php:438
+msgid "Not all products are in stock."
+msgstr ""
+
+#: ../includes/kco-functions.php:440
+msgid "No shipping was selected."
+msgstr ""
+
+#: ../includes/kco-functions.php:442
+msgid "Invalid coupon."
+msgstr ""
+
+#: ../includes/kco-functions.php:448
+msgid "A mismatch in order totals between WooCommerce and Klarna was detected. Please try again."
+msgstr ""
+
+#: ../includes/kco-functions.php:523
+msgid "Klarna Checkout order was rejected"
+msgstr ""
+
+#: ../includes/kco-functions.php:527
+msgid "Waiting for verification from Klarnas push notification"
+msgstr ""
+
+#: ../includes/kco-status-report.php:17
+msgid "Klarna Checkout System Status."
+msgstr ""
+
+#: ../klarna-checkout-for-woocommerce.php:176
+msgid "Support"
+msgstr ""
+
+#: ../klarna-checkout-for-woocommerce.php:401
+msgid "Failed getting the order for the external payment."
+msgstr ""
+
+#: ../klarna-checkout-for-woocommerce.php:407
+msgid "Failed to find the payment method for the external payment."
+msgstr ""
+
+#: ../klarna-checkout-for-woocommerce.php:413
+msgid "Something went wrong with the external payment. Please try again"
+msgstr ""
