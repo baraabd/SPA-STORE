@@ -1,0 +1,39 @@
+/*
+    Theme Name: Carolina Spa WooCommerce
+    Theme URI: 
+    Description: Carolina Spa WooCommerce (Child of Storefront)
+    Author: 
+    Author URI: 
+    Template: storefront
+    Version: 1.0.0
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Tags: woocommerce,spa, responsive-layout, right-sidebar, 
+    Text Domain: storefront
+*/
+
+ul.products li.product.product-category img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+ul.products li.product.product-category img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transform: rotate(7deg);
+    transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+}
