@@ -561,3 +561,19 @@ footer ul.menu li.current-menu-item>a {
 .woocommerce-checkout footer.site-footer {
     display: none;
 }
+
+
+/**Serach button */
+
+.site-search .widget_product_search form::before {
+    display: none;
+}
+
+.site-search .widget_product_search form input[type=search] {
+    background-color: transparent;
+    box-shadow: none;
+    border: 2px solid #e282a8;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 1em !important;
+}
