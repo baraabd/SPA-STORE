@@ -324,3 +324,33 @@ function carolinaspa_include_addthis_scripts() { ?>
 <?php
 }
 add_action('wp_footer', 'carolinaspa_include_addthis_scripts');
+
+/* Display banner in the cart page*/
+function carolinaspa_display_banner_cart_page() {
+    global $post;
+    $image_url = get_field('banner', $post->ID);
+    if($image_url): ?>
+        <div class="coupon-cart">
+            <img src="<?php echo $image_url ?>" alt="coupon">
+        </div>
+        
+    <?php endif;
+}
+add_action('woocommerce_check_cart_items', 'carolinaspa_display_banner_cart_page');
+
+
+// Display a button tu clear the cart
+
+function carolinaspa_empty_cart_button() { ?>
+    <a class="button" href="?empty-cart=true">Empty Cart</a>
+<?php    
+}
+add_action('woocommerce_cart_actions', 'carolinaspa_empty_cart_button');
+
+function carolinaspa_empty_cart() {
+    if(isset($_GET['empty-cart'])):
+        global $woocommerce;
+        $woocommerce->cart->empty_cart();
+    endif;
+}
+add_action('init', 'carolinaspa_empty_cart');
