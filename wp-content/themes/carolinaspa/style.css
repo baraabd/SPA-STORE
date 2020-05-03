@@ -551,3 +551,13 @@ footer ul.menu li.current-menu-item>a {
 .coupon-cart {
     margin-bottom: 1em;
 }
+
+
+/** Checkout **/
+
+.woocommerce-checkout .storefront-primary-navigation,
+.woocommerce-checkout .secondary-navigation,
+.woocommerce-checkout .site-search,
+.woocommerce-checkout footer.site-footer {
+    display: none;
+}

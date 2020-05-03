@@ -354,3 +354,41 @@ function carolinaspa_empty_cart() {
     endif;
 }
 add_action('init', 'carolinaspa_empty_cart');
+
+
+
+// Remove the Phone Field from Checkout
+function carolinaspa_checkout_fields($fields) {
+    unset($fields['billing']['billing_phone']);
+    $fields['billing']['billing_email']['class'] = array('form-row-wide');
+    
+    return $fields;
+}
+add_filter('woocommerce_checkout_fields', 'carolinaspa_checkout_fields', 20);
+
+
+// Add extra fields to checkout
+
+function carolinaspa_add_checkout_fields($fields) {
+
+    $fields['billing']['itin'] = array(
+        'css' => array('form-row-wide'),
+        'label' => 'ITIN (Individual TaxPayer Identification Number)',
+        'required' => true
+    );
+    $fields['order']['heard_about_us'] = array(
+        'type' => 'select',
+        'css' => array('form-row-wide'),
+        'label' => 'How did you hear about us?',
+        'options' => array(
+            'default' => 'Choose...',
+            'tv'    => 'Television',
+            'radio' => 'Radio',
+            'newspaper' => 'Newspaper',
+            'internet'  => 'Internet',
+            'facebook'  => 'Facebook'
+        )
+    );
+    return $fields;
+}
+add_filter('woocommerce_checkout_fields', 'carolinaspa_add_checkout_fields', 20);
