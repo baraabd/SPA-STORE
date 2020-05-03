@@ -392,3 +392,19 @@ function carolinaspa_add_checkout_fields($fields) {
     return $fields;
 }
 add_filter('woocommerce_checkout_fields', 'carolinaspa_add_checkout_fields', 20);
+
+
+/* Related Products in Blog*/
+function carolinaspa_blog_related_products() {
+    global $post;
+    $related_products = get_field('related_products' ,$post->ID);
+    
+    if($related_products):
+        $product_ids = join($related_products, ', '); ?>
+        <div class="related-products">
+            <h2 class="section-title">Related Products</h2>
+            <?php echo do_shortcode('[products ids="'.$product_ids.'" columns="8"]') ?>
+        </div>
+    <?php endif;
+}
+add_action('storefront_post_content_after', 'carolinaspa_blog_related_products');
