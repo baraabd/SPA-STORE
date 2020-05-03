@@ -461,3 +461,54 @@ ul.products li.product.product-category img:hover {
     text-align: left;
     display: block;
 }
+
+
+/** Footer **/
+
+footer .widget .widget-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #8ed4cc;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+footer .widget_product_categories .cat-item::before,
+footer .menu .menu-item::before,
+footer .menu-item-has-children ul {
+    display: none;
+}
+
+footer ul.menu li.current-menu-item>a {
+    color: white;
+}
+
+.reserved {
+    background-color: #8ed4cc;
+    padding: 1em 0;
+}
+
+.reserved p {
+    color: #595959;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+/** 4 columns in the shop page */
+
+.site-main .columns-3 ul.products li.product {
+    width: 20%;
+}
+
+#search-4,
+#woocommerce_product_search-2 {
+    display: none;
+}
+
+.woocommerce-page #woocommerce_product_search-2,
+.blog #search-4 {
+    display: block;
+}
