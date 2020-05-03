@@ -216,3 +216,111 @@ function carolinaspa_no_featured_image($image_url) {
     return $image_url;
 }
 add_filter('woocommerce_placeholder_img_src', 'carolinaspa_no_featured_image');
+
+//  //Removes a tab in the single page product
+//  function carolinaspa_remove_description($tabs) {
+//     unset($tabs['description']);
+//     return $tabs;
+//  }
+// add_filter('woocommerce_product_tabs', 'carolinaspa_remove_description', 20);
+
+// Change the Title for the description tab
+function carolinaspa_title_tab_description($tabs) {
+    global $post;
+    if($tabs['description']):
+        $tabs['description']['title'] = $post->post_title;
+    endif;  
+    return $tabs;
+}
+add_filter('woocommerce_product_tabs', 'carolinaspa_title_tab_description', 20);
+
+function carolinaspa_title_tab_content_description($title) {
+    global $post;
+    $title = $post->post_title;
+    return $title;
+}
+add_filter('woocommerce_product_description_heading','carolinaspa_title_tab_content_description' );
+
+// Display a Subtitle in Single Products
+function carolinaspa_display_subtitle_single_product() {
+    global $post;
+    $subtitle = get_field('subtitle', $post->ID);
+    echo "<h3 class='subtitle'>" . $subtitle . "</h3>";
+}
+add_action('woocommerce_single_product_summary', 'carolinaspa_display_subtitle_single_product', 6);
+
+// Add a new tab with a video
+
+function carolinaspa_video_tab($tabs) {
+    global $post;
+    $video = get_field('video', $post->ID);
+    if($video):
+        $tabs['video'] = array(
+            'title' => 'Video',
+            'priority' => 5,
+            'callback' => 'carolinaspa_display_video'
+        );
+    endif;
+    return $tabs;
+}
+add_filter('woocommerce_product_tabs', 'carolinaspa_video_tab', 11, 1);
+
+function carolinaspa_display_video() {
+    global $post;
+    $video = get_field('video', $post->ID);
+    if($video):
+        echo '<video controls>';
+        echo "<source src='". $video . "'>";
+        echo "</video>";
+    endif;
+}
+
+
+// Display savings as dollars
+// function carolinaspa_saved_price_dollars($price, $product) {
+//     if($product->get_sale_price() ): 
+//         $saved = wc_price($product->get_regular_price() - $product->get_sale_price() ); 
+//         return $price . sprintf( __('<br> <span class="save-amount"> Save: %s </span>', 'woocommerce' ), $saved );
+//     endif;
+//     
+//     return $price;
+// }
+// add_filter('woocommerce_get_price_html', 'carolinaspa_saved_price_dollars', 10, 2);
+
+// function carolinaspa_saved_price_percentage($price, $product) {
+//     if($product->get_sale_price() ): 
+//         $percentage = round( ( ($product->get_regular_price() - $product->get_sale_price() ) / $product->get_regular_price() ) * 100);
+//         return $price . sprintf( __('<br> <span class="save-amount"> Save: %s </span>', 'woocommerce' ), $percentage . "%" );
+//     endif;
+//     return $price;
+// }
+// add_filter('woocommerce_get_price_html', 'carolinaspa_saved_price_percentage', 10, 2);
+
+function carolinaspa_display_savings($price, $product) {
+    if($product->get_sale_price() ): 
+        $regular_price = $product->get_regular_price();
+        
+        if($regular_price > 100) {
+            $saved = wc_price($product->get_regular_price() - $product->get_sale_price() ); 
+            return $price . sprintf( __('<br> <span class="save-amount"> Save: %s </span>', 'woocommerce' ), $saved );
+        } else {
+            $percentage = round( ( ($product->get_regular_price() - $product->get_sale_price() ) / $product->get_regular_price() ) * 100);
+            return $price . sprintf( __('<br> <span class="save-amount"> Save: %s </span>', 'woocommerce' ), $percentage . "%" );
+        }
+    endif;
+    return $price;
+}
+add_filter('woocommerce_get_price_html', 'carolinaspa_display_savings', 10, 2);
+
+/** Print Social Sharing Icons **/
+function carolinaspa_display_sharing_buttons() { ?>
+    <div class="addthis_inline_share_toolbox_8ctf"></div>
+<?php
+}
+add_action('woocommerce_before_add_to_cart_form', 'carolinaspa_display_sharing_buttons');
+
+function carolinaspa_include_addthis_scripts() { ?>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55c50cc67204ab8d"></script> 
+<?php
+}
+add_action('wp_footer', 'carolinaspa_include_addthis_scripts');

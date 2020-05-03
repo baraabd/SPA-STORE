@@ -512,3 +512,42 @@ footer ul.menu li.current-menu-item>a {
 .blog #search-4 {
     display: block;
 }
+
+.subtitle {
+    text-transform: none;
+    font-size: 1.2em;
+}
+
+
+/** Save Amount*/
+
+.onsale {
+    background-color: #4cae4c;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+}
+
+.save-amount {
+    color: #333;
+    font-size: 1em;
+    font-weight: 700;
+    padding: .3em 1em;
+    border: 2px solid #2db848;
+    margin-top: .5em;
+    display: inline-block;
+}
+
+.save-amount .amount {
+    color: #333;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.woocommerce-message {
+    background-color: #e282a8;
+}
+
+.coupon-cart {
+    margin-bottom: 1em;
+}
