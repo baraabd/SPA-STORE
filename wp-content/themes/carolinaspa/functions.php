@@ -234,3 +234,44 @@ function carolinaspa_title_tab_description($tabs) {
     return $tabs;
 }
 add_filter('woocommerce_product_tabs', 'carolinaspa_title_tab_description', 20);
+
+function carolinaspa_title_tab_content_description($title) {
+    global $post;
+    $title = $post->post_title;
+    return $title;
+}
+add_filter('woocommerce_product_description_heading','carolinaspa_title_tab_content_description' );
+
+// Display a Subtitle in Single Products
+function carolinaspa_display_subtitle_single_product() {
+    global $post;
+    $subtitle = get_field('subtitle', $post->ID);
+    echo "<h3 class='subtitle'>" . $subtitle . "</h3>";
+}
+add_action('woocommerce_single_product_summary', 'carolinaspa_display_subtitle_single_product', 6);
+
+// Add a new tab with a video
+
+function carolinaspa_video_tab($tabs) {
+    global $post;
+    $video = get_field('video', $post->ID);
+    if($video):
+        $tabs['video'] = array(
+            'title' => 'Video',
+            'priority' => 5,
+            'callback' => 'carolinaspa_display_video'
+        );
+    endif;
+    return $tabs;
+}
+add_filter('woocommerce_product_tabs', 'carolinaspa_video_tab', 11, 1);
+
+function carolinaspa_display_video() {
+    global $post;
+    $video = get_field('video', $post->ID);
+    if($video):
+        echo '<video controls>';
+        echo "<source src='". $video . "'>";
+        echo "</video>";
+    endif;
+}
