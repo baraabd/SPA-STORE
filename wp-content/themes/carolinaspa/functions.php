@@ -96,3 +96,31 @@ function carolinaspa_spoil_banner(){?>
 
 }
 add_action('homepage', 'carolinaspa_spoil_banner', 75);
+
+/** Print Features with icons**/
+function carolinaspa_display_features() { ?>
+    </main>
+</div><!--#primary-->
+</div><!--.col-full-->
+<div class="home-features">
+<div class="col-full">
+    <div class="columns-4">
+        <?php the_field('feature_icon_1'); ?>
+        <p><?php the_field('feature_content_1'); ?></p>
+    </div>
+    <div class="columns-4">
+        <?php the_field('feature_icon_2'); ?>
+        <p><?php the_field('feature_content_2'); ?></p>
+    </div>
+    <div class="columns-4">
+        <?php the_field('feature_icon_3'); ?>
+        <p><?php the_field('feature_content_3'); ?></p>
+    </div>
+</div>
+</div>
+<div class="col-full">
+<div class="content-area">
+    <div class="site-main">
+<?php
+}
+add_action('homepage', 'carolinaspa_display_features', 15);
