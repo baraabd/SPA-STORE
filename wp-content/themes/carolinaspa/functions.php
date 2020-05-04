@@ -28,6 +28,23 @@ add_action('wp_enqueue_scripts', 'spastore_scripts');
 
 
 
+// Remove the homepage content text and display the feature image
+function carolinaspa_homepage_content()
+{
+    remove_action('homepage', 'storefront_homepage_content');
+    add_action('homepage', 'carolinaspa_homepage_coupon', 10);
+}
+add_action('init', 'carolinaspa_homepage_content');
+
+
+function carolinaspa_homepage_coupon()
+{
+    echo "<div class='main-content'>";
+    the_post_thumbnail();
+    echo "</div>";
+}
+
+
 
 
 
