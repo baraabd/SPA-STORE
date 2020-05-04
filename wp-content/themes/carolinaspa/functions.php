@@ -78,3 +78,21 @@ function carolinaspa_homepage_homekits()
 
 add_action('homepage', 'carolinaspa_homepage_homekits', 23);
 
+/** Banner with message**/
+function carolinaspa_spoil_banner(){?>
+    
+    <div class="banner-spoil">
+        <div class="columns-4">
+            <h3><?php the_field('banner_text'); ?></h3>
+        </div>
+        <div class="columns-8">
+            <img src="<?php the_field('banner_image'); ?>">
+        </div>
+    </div>
+
+<?php
+
+
+
+}
+add_action('homepage', 'carolinaspa_spoil_banner', 75);
