@@ -275,3 +275,136 @@ function carolinaspa_display_video() {
         echo "</video>";
     endif;
 }
+
+// Display savings as dollars
+// function carolinaspa_saved_price_dollars($price, $product) {
+//     if($product->get_sale_price() ): 
+//         $saved = wc_price($product->get_regular_price() - $product->get_sale_price() ); 
+//         return $price . sprintf( __('<br> <span class="save-amount"> Save: %s </span>', 'woocommerce' ), $saved );
+//     endif;
+//     
+//     return $price;
+// }
+// add_filter('woocommerce_get_price_html', 'carolinaspa_saved_price_dollars', 10, 2);
+
+// function carolinaspa_saved_price_percentage($price, $product) {
+//     if($product->get_sale_price() ): 
+//         $percentage = round( ( ($product->get_regular_price() - $product->get_sale_price() ) / $product->get_regular_price() ) * 100);
+//         return $price . sprintf( __('<br> <span class="save-amount"> Save: %s </span>', 'woocommerce' ), $percentage . "%" );
+//     endif;
+//     return $price;
+// }
+// add_filter('woocommerce_get_price_html', 'carolinaspa_saved_price_percentage', 10, 2);
+
+function carolinaspa_display_savings($price, $product) {
+    if($product->get_sale_price() ): 
+        $regular_price = $product->get_regular_price();
+        
+        if($regular_price > 100) {
+            $saved = wc_price($product->get_regular_price() - $product->get_sale_price() ); 
+            return $price . sprintf( __('<br> <span class="save-amount"> Save: %s </span>', 'woocommerce' ), $saved );
+        } else {
+            $percentage = round( ( ($product->get_regular_price() - $product->get_sale_price() ) / $product->get_regular_price() ) * 100);
+            return $price . sprintf( __('<br> <span class="save-amount"> Save: %s </span>', 'woocommerce' ), $percentage . "%" );
+        }
+    endif;
+    return $price;
+}
+add_filter('woocommerce_get_price_html', 'carolinaspa_display_savings', 10, 2);
+
+/** Print Social Sharing Icons **/
+function carolinaspa_display_sharing_buttons() { ?>
+    <div class="addthis_inline_share_toolbox_8ctf"></div>
+<?php
+}
+add_action('woocommerce_before_add_to_cart_form', 'carolinaspa_display_sharing_buttons');
+
+function carolinaspa_include_addthis_scripts() { ?>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55c50cc67204ab8d"></script> 
+<?php
+}
+add_action('wp_footer', 'carolinaspa_include_addthis_scripts');
+
+/* Display banner in the cart page*/
+function carolinaspa_display_banner_cart_page() {
+    global $post;
+    $image_url = get_field('banner', $post->ID);
+    if($image_url): ?>
+        <div class="coupon-cart">
+            <img src="<?php echo $image_url ?>" alt="coupon">
+        </div>
+        
+    <?php endif;
+}
+add_action('woocommerce_check_cart_items', 'carolinaspa_display_banner_cart_page');
+
+
+// Display a button tu clear the cart
+
+function carolinaspa_empty_cart_button() { ?>
+    <a class="button" href="?empty-cart=true">Empty Cart</a>
+<?php    
+}
+add_action('woocommerce_cart_actions', 'carolinaspa_empty_cart_button');
+
+function carolinaspa_empty_cart() {
+    if(isset($_GET['empty-cart'])):
+        global $woocommerce;
+        $woocommerce->cart->empty_cart();
+    endif;
+}
+add_action('init', 'carolinaspa_empty_cart');
+
+
+
+// Remove the Phone Field from Checkout
+function carolinaspa_checkout_fields($fields) {
+    unset($fields['billing']['billing_phone']);
+    $fields['billing']['billing_email']['class'] = array('form-row-wide');
+    
+    return $fields;
+}
+add_filter('woocommerce_checkout_fields', 'carolinaspa_checkout_fields', 20);
+
+
+// Add extra fields to checkout
+
+function carolinaspa_add_checkout_fields($fields) {
+
+    $fields['billing']['itin'] = array(
+        'css' => array('form-row-wide'),
+        'label' => 'ITIN (Individual TaxPayer Identification Number)',
+        'required' => true
+    );
+    $fields['order']['heard_about_us'] = array(
+        'type' => 'select',
+        'css' => array('form-row-wide'),
+        'label' => 'How did you hear about us?',
+        'options' => array(
+            'default' => 'Choose...',
+            'tv'    => 'Television',
+            'radio' => 'Radio',
+            'newspaper' => 'Newspaper',
+            'internet'  => 'Internet',
+            'facebook'  => 'Facebook'
+        )
+    );
+    return $fields;
+}
+add_filter('woocommerce_checkout_fields', 'carolinaspa_add_checkout_fields', 20);
+
+
+/* Related Products in Blog*/
+function carolinaspa_blog_related_products() {
+    global $post;
+    $related_products = get_field('related_products' ,$post->ID);
+    
+    if($related_products):
+        $product_ids = join($related_products, ', '); ?>
+        <div class="related-products">
+            <h2 class="section-title">Related Products</h2>
+            <?php echo do_shortcode('[products ids="'.$product_ids.'" columns="8"]') ?>
+        </div>
+    <?php endif;
+}
+add_action('storefront_post_content_after', 'carolinaspa_blog_related_products');
