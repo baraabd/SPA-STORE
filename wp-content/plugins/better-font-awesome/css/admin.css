@@ -1,0 +1,36 @@
+/**
+ * Better Font Awesome Admin CSS
+ *
+ * @since 1.1.0
+ */
+
+.bfa-loading-gif {
+	display: none;
+	vertical-align: middle;
+}
+
+.bfa-ajax-response-holder {
+	display: none;
+	padding-bottom: 1em;
+}
+
+.bfa-ajax-response-holder div.updated {
+	margin: 0;
+}
+
+.bfa-usage-text {
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #efefef;
+}
+
+.bfa-usage-text h3 {
+	margin-top: 0;
+}
+
+.bfa-usage-text .fa,
+.bfa-usage-text .icon {
+	width: 40px;
+	text-align: center;
+	box-sizing: border-box;
+}

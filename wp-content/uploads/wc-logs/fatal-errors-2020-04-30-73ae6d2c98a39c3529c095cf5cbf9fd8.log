@@ -1,0 +1,57 @@
+2020-04-30T23:18:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-content\themes\carolinaspa\functions.php on line 3 and at least 2 expected in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-includes\plugin.php:583
+Stack trace:
+#0 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-content\themes\carolinaspa\functions.php(3): remove_action('woocommerce_sin...')
+#1 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-settings.php(508): include('C:\\Users\\asus\\D...')
+#2 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-config.php(90): require_once('C:\\Users\\asus\\D...')
+#3 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-load.php(37): require_once('C:\\Users\\asus\\D...')
+#4 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\asus\\D...')
+#5 {main}
+  thrown in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-includes\plugin.php on line 583
+
+2020-04-30T23:18:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-content\themes\carolinaspa\functions.php on line 3 and at least 2 expected in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-includes\plugin.php:583
+Stack trace:
+#0 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-content\themes\carolinaspa\functions.php(3): remove_action('woocommerce_sin...')
+#1 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-settings.php(508): include('C:\\Users\\asus\\D...')
+#2 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-config.php(90): require_once('C:\\Users\\asus\\D...')
+#3 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-load.php(37): require_once('C:\\Users\\asus\\D...')
+#4 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-blog-header.php(13): require_once('C:\\Users\\asus\\D...')
+#5 C:\Users\asus\Desktop\Medieinstitute\Github in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-includes\plugin.php on line 583
+
+2020-04-30T23:19:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-content\themes\carolinaspa\functions.php on line 3 and at least 2 expected in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-includes\plugin.php:583
+Stack trace:
+#0 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-content\themes\carolinaspa\functions.php(3): remove_action('woocommerce_sin...')
+#1 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-settings.php(508): include('C:\\Users\\asus\\D...')
+#2 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-config.php(90): require_once('C:\\Users\\asus\\D...')
+#3 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-load.php(37): require_once('C:\\Users\\asus\\D...')
+#4 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\asus\\D...')
+#5 {main}
+  thrown in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-includes\plugin.php on line 583
+
+2020-04-30T23:19:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-content\themes\carolinaspa\functions.php on line 3 and at least 2 expected in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-includes\plugin.php:583
+Stack trace:
+#0 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-content\themes\carolinaspa\functions.php(3): remove_action('woocommerce_sin...')
+#1 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-settings.php(508): include('C:\\Users\\asus\\D...')
+#2 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-config.php(90): require_once('C:\\Users\\asus\\D...')
+#3 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-load.php(37): require_once('C:\\Users\\asus\\D...')
+#4 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-blog-header.php(13): require_once('C:\\Users\\asus\\D...')
+#5 C:\Users\asus\Desktop\Medieinstitute\Github in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-includes\plugin.php on line 583
+
+2020-04-30T23:21:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-content\themes\carolinaspa\functions.php on line 3 and at least 2 expected in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-includes\plugin.php:583
+Stack trace:
+#0 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-content\themes\carolinaspa\functions.php(3): remove_action('woocommerce_sin...')
+#1 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-settings.php(508): include('C:\\Users\\asus\\D...')
+#2 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-config.php(90): require_once('C:\\Users\\asus\\D...')
+#3 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-load.php(37): require_once('C:\\Users\\asus\\D...')
+#4 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\asus\\D...')
+#5 {main}
+  thrown in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-includes\plugin.php on line 583
+
+2020-04-30T23:21:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-content\themes\carolinaspa\functions.php on line 3 and at least 2 expected in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-includes\plugin.php:583
+Stack trace:
+#0 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-content\themes\carolinaspa\functions.php(3): remove_action('woocommerce_sin...')
+#1 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-settings.php(508): include('C:\\Users\\asus\\D...')
+#2 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-config.php(90): require_once('C:\\Users\\asus\\D...')
+#3 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-load.php(37): require_once('C:\\Users\\asus\\D...')
+#4 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-blog-header.php(13): require_once('C:\\Users\\asus\\D...')
+#5 C:\Users\asus\Desktop\Medieinstitute\Github in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-includes\plugin.php on line 583
+
