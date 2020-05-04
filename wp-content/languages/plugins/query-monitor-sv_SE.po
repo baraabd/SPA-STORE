@@ -1,0 +1,1398 @@
+# Translation of Plugins - Query Monitor - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Query Monitor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-29 15:23:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Query Monitor - Stable (latest release)\n"
+
+#: dispatchers/Html.php:437
+msgid "Saved! Reload to apply changes."
+msgstr "Sparat! Ladda om för att tillämpa ändringar."
+
+#: dispatchers/Html.php:435
+msgid "Set editor cookie"
+msgstr "Sätt programutvecklingsmiljökaka"
+
+#: dispatchers/Html.php:415
+msgid "You can set your editor here, so that when you click on stack trace links the file opens in your editor."
+msgstr "Här kan du ställa in den programutvecklingsmiljö du använder, så att den automatiskt öppnar de stackspårslänkar du klickar på."
+
+#: dispatchers/Html.php:413
+msgid "Editor"
+msgstr "Programutvecklingsmiljö"
+
+#. translators: %s: Number of logs that are available
+#: output/html/logger.php:168
+msgid "Logs (%s)"
+msgstr "Loggar (%s)"
+
+#: output/html/request.php:187
+msgid "Requested URL"
+msgstr "Begärd URL"
+
+#: output/html/request.php:186
+msgid "HTTP method"
+msgstr "HTTP-metod"
+
+#: output/html/request.php:185
+msgid "Remote IP"
+msgstr "Motpartens IP-adress"
+
+#: output/html/admin.php:64
+msgid "Global Variable"
+msgstr "Global variabel"
+
+#: output/html/admin.php:60
+msgid "Globals"
+msgstr "Globala variabler"
+
+#: output/html/headers.php:95
+msgid "Response Headers"
+msgstr "Headers i svar"
+
+#: output/html/headers.php:94
+msgid "Request Headers"
+msgstr "Headers i förfrågan"
+
+#: output/html/headers.php:82
+msgid "Note that header names are not case-sensitive."
+msgstr "Observera att header-namn inte är skiftlägeskänsliga."
+
+#: output/html/headers.php:54
+msgid "Response Header Name"
+msgstr "Header-namn i svar"
+
+#: output/html/headers.php:43
+msgid "Request Header Name"
+msgstr "Header-namn i förfrågan"
+
+#: output/html/timing.php:40
+msgid "Stopped"
+msgstr "Stoppat"
+
+#: output/html/timing.php:39
+msgid "Started"
+msgstr "Startat"
+
+#. translators: %s: Number of database queries
+#: output/html/db_queries.php:276
+msgctxt "Query count"
+msgid "Total: %s"
+msgid_plural "Total: %s"
+msgstr[0] "Totalt: %s"
+msgstr[1] "Totalt: %s"
+
+#: output/html/overview.php:64
+msgid "Unknown HTTP Response Code"
+msgstr "Okänd HTTP-svarskod"
+
+#: output/html/headers.php:30 output/html/request.php:181
+msgid "Request Data"
+msgstr "Data i förfrågan"
+
+#: dispatchers/Html.php:444
+msgid "Enable dark mode for Query Monitor's interface."
+msgstr "Aktivera mörkt läge i användargränssnittet för Query Monitor."
+
+#. translators: %s: Default value for a PHP constant
+#: dispatchers/Html.php:509
+msgid "Default value: %s"
+msgstr "Standardvärde: %s"
+
+#: output/html/theme.php:113
+msgid "Not Loaded"
+msgstr "Ej laddat"
+
+#. translators: 1: Required PHP version number, 2: Current PHP version number,
+#. 3: URL of PHP update help page
+#: classes/Plugin.php:96
+msgid "The Query Monitor plugin requires PHP version %1$s or higher. This site is running PHP version %2$s. <a href=\"%3$s\">Learn about updating PHP</a>."
+msgstr "Tillägget Query Monitor kräver PHP-version %1$s eller senare. Denna webbplats kör PHP-version %2$s. <a href=\"%3$s\">Läs mer om hur man uppdaterar PHP</a>."
+
+#. translators: %s: Total number of enqueued scripts
+#: output/html/assets_scripts.php:27
+msgctxt "Enqueued scripts"
+msgid "Scripts (%s)"
+msgstr "Skript (%s)"
+
+#. translators: %s: Total number of enqueued styles
+#: output/html/assets_styles.php:27
+msgctxt "Enqueued styles"
+msgid "Styles (%s)"
+msgstr "Stilar (%s)"
+
+#: output/html/overview.php:207
+msgid "Object cache statistics are not available"
+msgstr "Statistik för objekts-cache är inte tillgänglig"
+
+#: output/Html.php:338
+msgid "Toggle more information"
+msgstr "Toggle more information"
+
+#: output/Html.php:325
+msgid "Sort data by this column"
+msgstr "Sortera data efter denna kolumn"
+
+#: output/Html.php:143
+msgid "Callback"
+msgstr "Återanrop"
+
+#. translators: %s: Panel name
+#: output/Html.php:134
+msgid "%s: Related Hooks with Filters or Actions Attached"
+msgstr "%s: Relevanta hooks med tillkopplade filter eller åtgärder"
+
+#: output/Html.php:114
+msgid "Filter"
+msgstr "Filtrera"
+
+#: output/Html.php:113
+msgid "Related Hooks with Filters Attached"
+msgstr "Relevanta hooks med tillkopplade filter"
+
+#: output/Html.php:109
+msgid "Related Hooks with Actions Attached"
+msgstr "Relevanta hooks med tillkopplade åtgärder"
+
+#: output/html/languages.php:41
+msgid "Translation File"
+msgstr "Översättningsfil"
+
+#. translators: %s: Name of cache driver
+#: output/html/overview.php:246
+msgid "Opcode cache in use: %s"
+msgstr "Opcode-cache som används: %s"
+
+#: output/html/overview.php:178
+msgctxt "database queries"
+msgid "Total"
+msgstr "Totalt"
+
+#: output/html/block_editor.php:157
+msgid "None (Classic block)"
+msgstr "Ingen (klassiskt block)"
+
+#: output/html/block_editor.php:54
+msgid "Render Time"
+msgstr "Tidsåtgång för rendering"
+
+#: output/html/theme.php:142
+msgid "Twig Template Files"
+msgstr "Skapa kopior av mallfiler"
+
+#: dispatchers/Html.php:341
+msgid "Toggle panel position"
+msgstr "Växla panelens position"
+
+#. translators: %s: Plugin or theme name
+#: dispatchers/WP_Die.php:107
+msgid "The message above was triggered by %s."
+msgstr "Ovanstående meddelande föranleddes av %s."
+
+#: dispatchers/Html.php:273
+msgid "Hooks in Use"
+msgstr "Hooks som används"
+
+#. translators: %1$s: Erroneous post type name, %2$s: WordPress attachment post
+#. type name
+#: output/html/block_editor.php:136
+msgid "Referenced media is of type %1$s instead of %2$s."
+msgstr "De refererade mediafilerna är av typen %1$s och inte %2$s."
+
+#: output/html/block_editor.php:128
+msgid "Referenced media does not exist."
+msgstr "De refererade mediafilerna saknas."
+
+#. translators: %s: Total number of content blocks used
+#: output/html/block_editor.php:75
+msgctxt "Content blocks used"
+msgid "Total: %s"
+msgid_plural "Total: %s"
+msgstr[0] "Totalt: %s"
+msgstr[1] ""
+
+#: classes/QueryMonitor.php:51
+msgid "Add-ons"
+msgstr "Utökningar"
+
+#. translators: 1: Name of the PHP directive, 2: Value of the PHP directive
+#: output/html/overview.php:140
+msgid "No memory limit. The %1$s PHP configuration directive is set to %2$s."
+msgstr "Det finns ingen gräns för minnesanvändningen. Konfigurationsregeln %1$s för PHP är satt till %2$s."
+
+#. translators: 1: Name of the PHP directive, 2: Value of the PHP directive
+#: output/html/overview.php:101
+msgid "No execution time limit. The %1$s PHP configuration directive is set to %2$s."
+msgstr "Det finns ingen gräns för körtiden. Konfigurationsregeln %1$s för PHP är satt till %2$s."
+
+#: collectors/assets.php:239
+msgid "Insecure content"
+msgstr "Osäkert innehåll"
+
+#. translators: %1$s: Erroneous post type name, %2$s: WordPress block post type
+#. name
+#: output/html/block_editor.php:106
+msgid "Referenced post is of type %1$s instead of %2$s."
+msgstr "Det refererade inlägget är av typen %1$s och inte %2$s."
+
+#: output/html/block_editor.php:98
+msgid "Referenced block does not exist."
+msgstr "Det refererade block finns inte."
+
+#: output/html/block_editor.php:57
+msgid "Inner HTML"
+msgstr "Inre HTML"
+
+#: output/html/block_editor.php:51
+msgid "Render Callback"
+msgstr "Återanrop för rendering"
+
+#: output/html/block_editor.php:50
+msgid "Attributes"
+msgstr "Egenskaper"
+
+#: output/html/block_editor.php:49
+msgid "Block Name"
+msgstr "Blocknamn"
+
+#: output/html/block_editor.php:36
+msgid "This post contains no blocks."
+msgstr "Detta inlägg innehåller inga block."
+
+#. translators: %s: The number of times that a template part file was included
+#. in the page
+#: output/html/theme.php:98
+msgctxt "template parts"
+msgid "Included %s time"
+msgid_plural "Included %s times"
+msgstr[0] "Inkluderad %s gång"
+msgstr[1] "Inkluderad %s gånger"
+
+#: output/html/block_editor.php:23 output/html/block_editor.php:267
+msgid "Blocks"
+msgstr "Block"
+
+#: classes/QueryMonitor.php:161
+msgctxt "Human readable label for the user capability required to view Query Monitor."
+msgid "View Query Monitor"
+msgstr "Visa Query Monitor"
+
+#: output/html/transients.php:119
+msgid "No transients set."
+msgstr "Inga transientvariabler är satta."
+
+#. translators: %s: PHP extension name
+#: output/html/overview.php:232
+msgid "The %s extension for PHP is installed but is not in use by WordPress"
+msgstr "Utökningen %s för PHP är installerad, men används inte av WordPress"
+
+#: output/html/overview.php:45
+msgid "PHP errors were triggered during an Ajax request. See your browser developer console for details."
+msgstr "PHP-fel inträffade i samband med en begäran via Ajax. Mer information finns i utvecklarkonsolen i din webbläsare."
+
+#: output/html/http.php:335
+msgid "No HTTP API calls."
+msgstr "Inga anrop till HTTP-API."
+
+#. translators: %s: Number of HTTP API requests
+#: output/html/http.php:323
+msgctxt "HTTP API calls"
+msgid "Total: %s"
+msgid_plural "Total: %s"
+msgstr[0] "Totalt: %s"
+msgstr[1] ""
+
+#: output/html/environment.php:184
+msgid "Client Version"
+msgstr "Klientversion"
+
+#: output/html/environment.php:183
+msgid "Extension"
+msgstr "Utökning"
+
+#: output/html/environment.php:182
+msgid "Server Version"
+msgstr "Serverversion"
+
+#: output/html/db_queries.php:288
+msgid "No queries! Nice work."
+msgstr "Inga databasfrågor! Stiligt."
+
+#. translators: %s: Number of user capability checks
+#: output/html/caps.php:187
+msgctxt "User capability checks"
+msgid "Total: %s"
+msgid_plural "Total: %s"
+msgstr[0] "Totalt: %s"
+msgstr[1] ""
+
+#: output/html/assets.php:62
+msgid "Source"
+msgstr "Källa"
+
+#. translators: %s: Total number of enqueued styles
+#: output/html/assets_styles.php:24
+msgctxt "Enqueued styles"
+msgid "Total: %s"
+msgstr "Totalt: %s"
+
+#. translators: %s: Total number of enqueued scripts
+#: output/html/assets_scripts.php:24
+msgctxt "Enqueued scripts"
+msgid "Total: %s"
+msgstr "Totalt: %s"
+
+#: output/Html.php:319
+msgid "Sequence"
+msgstr "Sekvens"
+
+#. translators: %s: Current value for a PHP constant
+#: dispatchers/Html.php:525
+msgid "Current value: %s"
+msgstr "Nuvarande värde: %s"
+
+#. translators: %s: Name of the config file
+#: dispatchers/Html.php:486
+msgid "The following PHP constants can be defined in your %s file in order to control the behavior of Query Monitor:"
+msgstr "Följande PHP-konstanter kan definieras i filen %s för att styra hur Query Monitor uppträder:"
+
+#: dispatchers/Html.php:482
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: dispatchers/Html.php:476
+msgid "In the Hooks & Actions panel, show every hook that has an action or filter attached (instead of every action hook that fired during the request)."
+msgstr "I panelen ”Hooks och åtgärder” visas varje hook, till vilken någon åtgärd eller något filter har kopplats (i stället för varje åtgärdshook som körs i samband med förfrågan)."
+
+#: dispatchers/Html.php:472
+msgid "Don't specify jQuery as a dependency of Query Monitor. If jQuery isn't enqueued then Query Monitor will still operate, but with some reduced functionality."
+msgstr "Ange inte jQuery som ett beroende för Query Monitor. Om jQuery inte ställs i kö kommer Query Monitor fortfarande att fungera, men med nedsatt funktionalitet."
+
+#: dispatchers/Html.php:468
+msgid "Hide Query Monitor itself from various panels."
+msgstr "Dölj själva Query Monitor från olika paneler."
+
+#: dispatchers/Html.php:464
+msgid "Hide WordPress core on the Hooks & Actions panel."
+msgstr "Dölj WordPress-kärnan i panelen ”Hooks och åtgärder”."
+
+#: dispatchers/Html.php:460
+msgid "Enable the Capability Checks panel."
+msgstr "Aktivera panelen för rättighetskontroller."
+
+#: dispatchers/Html.php:456
+msgid "Disable the handling of PHP errors."
+msgstr "Inaktivera hantering av PHP-fel."
+
+#: dispatchers/Html.php:452
+msgid "Disable Query Monitor entirely."
+msgstr "Inaktivera Query Monitor helt."
+
+#: dispatchers/Html.php:448
+msgid "If an individual database query takes longer than this time to execute, it's considered \"slow\" and triggers a warning."
+msgstr "Om en enskild databasfråga pågår längre tid än detta, betraktas den som ”långsam”, vilket aktiverar en varning."
+
+#: dispatchers/Html.php:405
+msgid "Authentication cookie is set"
+msgstr "Cookien för autentisering har sparats"
+
+#: dispatchers/Html.php:401
+msgid "You can set an authentication cookie which allows you to view Query Monitor output when you&rsquo;re not logged in, or when you&rsquo;re logged in as a different user."
+msgstr "Du kan ange en autentiserings-cookie som låter dig se utdata från Query Monityr när du inte är inloggad eller när du är inloggad under ett annat användarnamn."
+
+#: dispatchers/Html.php:347
+msgid "Query Monitor Menu"
+msgstr "Meny för Query Monitor"
+
+#: collectors/logger.php:64
+msgid "Unsupported log level"
+msgstr "Loggningsnivån stöds inte"
+
+#: output/html/logger.php:24
+msgid "Logger"
+msgstr "Loggfunktion"
+
+#. Description of the plugin
+msgid "The Developer Tools Panel for WordPress."
+msgstr "Panelen med utvecklarverktyg för WordPress."
+
+#. translators: %s: Number of function timing results that are available
+#: output/html/timing.php:184
+msgid "Timings (%s)"
+msgstr "Tid (%s)"
+
+#. translators: %s: Approximate memory used in kilobytes
+#: output/html/timing.php:88 output/html/timing.php:120
+msgid "~%s kB"
+msgstr "~%s kB"
+
+#: output/html/timing.php:42
+msgid "Memory"
+msgstr "Minne"
+
+#: output/html/timing.php:38
+msgid "Tracked Function"
+msgstr "Spårad funktion"
+
+#: output/html/theme.php:194
+msgid "Template"
+msgstr "Mall"
+
+#: output/html/request.php:151
+msgid "Current User"
+msgstr "Nuvarande användare"
+
+#. translators: used between list items, there is a space after the comma
+#: output/html/php_errors.php:238
+msgid ", "
+msgstr ", "
+
+#. translators: %s: List of PHP error types
+#. translators: %s: Number of errors
+#: output/html/php_errors.php:235 output/html/php_errors.php:280
+msgid "PHP Errors (%s)"
+msgstr "PHP-fel (%s)"
+
+#. translators: %s: Number of PHP warnings
+#: output/html/php_errors.php:188
+msgctxt "PHP error level"
+msgid "%s Warning"
+msgid_plural "%s Warnings"
+msgstr[0] "%s varning"
+msgstr[1] "%s varningar"
+
+#. translators: %s: Number of PHP notices
+#: output/html/php_errors.php:186
+msgctxt "PHP error level"
+msgid "%s Notice"
+msgid_plural "%s Notices"
+msgstr[0] "%s påpekande"
+msgstr[1] "%s påpekanden"
+
+#. translators: %s: Number of strict PHP errors
+#: output/html/php_errors.php:184
+msgctxt "PHP error level"
+msgid "%s Strict"
+msgid_plural "%s Stricts"
+msgstr[0] "%s strikt"
+msgstr[1] "%s strikta"
+
+#. translators: %s: Number of deprecated PHP errors
+#: output/html/php_errors.php:182
+msgctxt "PHP error level"
+msgid "%s Deprecated"
+msgid_plural "%s Deprecated"
+msgstr[0] "%s föråldrat"
+msgstr[1] "%s föråldrade"
+
+#: output/html/php_errors.php:53 output/html/logger.php:44
+msgid "Message"
+msgstr "Meddelande"
+
+#: output/html/php_errors.php:51 output/html/logger.php:42
+msgid "Level"
+msgstr "Nivå"
+
+#: output/html/overview.php:44
+msgid "A JavaScript problem on the page is preventing Query Monitor from working correctly. jQuery may have been blocked from loading."
+msgstr "Ett JavaScript-problem på sidan hindrar Query Monitor från att fungera korrekt. jQuery kanske inte kunde laddas."
+
+#: output/html/languages.php:42
+msgid "Size"
+msgstr "Storlek"
+
+#: output/html/http.php:252
+msgid "IP Address"
+msgstr "IP-adress"
+
+#: output/html/http.php:251
+msgid "Response Content Type"
+msgstr "Svarets typ av innehåll"
+
+#: output/html/http.php:237
+msgid "Response Size"
+msgstr "Svarets storlek"
+
+#: output/html/http.php:223
+msgid "Transfer Start Time (TTFB)"
+msgstr "Tid till överföring startade (TTFB)"
+
+#: output/html/http.php:222
+msgid "Connection Time"
+msgstr "Anslutningstid"
+
+#: output/html/http.php:221
+msgid "DNS Resolution Time"
+msgstr "Tid för DNS-uppslagning"
+
+#. translators: %s HTTP API transport name
+#: output/html/http.php:210
+msgid "HTTP API Transport: %s"
+msgstr "Transport för HTTP-API: %s"
+
+#. translators: An HTTP API request redirected to another URL
+#: output/html/http.php:183
+msgid "Redirected to:"
+msgstr "Omdirigerad till:"
+
+#: output/html/http.php:56
+msgid "URL"
+msgstr "URL"
+
+#: output/html/http.php:55
+msgid "Method"
+msgstr "Metod"
+
+#: output/html/hooks.php:41 output/Html.php:142
+msgid "Priority"
+msgstr "Prioritet"
+
+#: output/html/environment.php:273
+msgid "OS"
+msgstr "OS"
+
+#: output/html/db_queries.php:69
+msgid "No database queries were logged."
+msgstr "Inga databasfrågor loggades."
+
+#: output/html/conditionals.php:46
+msgid "False Conditionals"
+msgstr "Falska villkor"
+
+#: output/html/conditionals.php:33
+msgid "True Conditionals"
+msgstr "Sanna villkor"
+
+#. translators: %s: Configuration file name.
+#: output/html/caps.php:37
+msgid "For performance reasons, this panel is not enabled by default. To enable it, add the following code to your %s file:"
+msgstr "Av prestandaskäl är denna panel inte aktiverad som standard. För att aktivera den lägger du till följande kod i filen %s:"
+
+#: output/html/assets.php:53
+msgid "Handle"
+msgstr "Handle"
+
+#: output/html/assets.php:60 output/html/environment.php:186
+#: output/html/environment.php:272
+msgid "Host"
+msgstr "Server"
+
+#: output/html/assets.php:45 output/html/assets.php:127
+msgid "Other"
+msgstr "Annat"
+
+#: output/html/assets.php:36
+msgid "Missing Dependencies"
+msgstr "Nödvändiga delar som saknas"
+
+#: output/html/admin.php:94
+msgid "Class:"
+msgstr "Klass:"
+
+#: output/html/admin.php:91
+msgid "List Table"
+msgstr "Tabellista"
+
+#: dispatchers/Html.php:342
+msgid "Close Panel"
+msgstr "Stäng panelen"
+
+#: classes/QueryMonitor.php:50 dispatchers/Html.php:334
+#: dispatchers/Html.php:340 dispatchers/Html.php:395
+msgid "Settings"
+msgstr "Inställningar"
+
+#: collectors/timing.php:79
+msgid "Timer not stopped"
+msgstr "Timern har inte stoppats"
+
+#: collectors/timing.php:32 collectors/timing.php:46
+msgid "Timer not started"
+msgstr "Timern har inte startats"
+
+#: output/html/timing.php:23
+msgid "Timing"
+msgstr "Tider"
+
+#. translators: %d: Multisite network ID
+#: collectors/request.php:152
+msgid "Current Network: #%d"
+msgstr "Nuvarande nätverk: #%d"
+
+#: collectors/php_errors.php:255
+msgctxt "Silenced PHP error level"
+msgid "Deprecated (Silenced)"
+msgstr "Föråldrat (tystat)"
+
+#: collectors/php_errors.php:254
+msgctxt "Silenced PHP error level"
+msgid "Strict (Silenced)"
+msgstr "Strikt (tystat)"
+
+#: collectors/php_errors.php:253
+msgctxt "Silenced PHP error level"
+msgid "Notice (Silenced)"
+msgstr "Påpekande (tystat)"
+
+#: collectors/php_errors.php:252
+msgctxt "Silenced PHP error level"
+msgid "Warning (Silenced)"
+msgstr "Varning (tystad)"
+
+#. translators: A non-blocking HTTP API request
+#: output/html/http.php:45 output/html/http.php:84
+msgid "Non-blocking"
+msgstr "Icke-blockerande"
+
+#. translators: %s: Plugin name
+#: classes/Util.php:145
+msgid "VIP Client MU Plugin: %s"
+msgstr "MU-tillägg för VIP-klient: %s"
+
+#. translators: %d: Timing lap number
+#: classes/Timer.php:47
+msgid "Lap %d"
+msgstr "Varv %d"
+
+#. Translators: 1: Minimum required PHP version, 2: Current PHP version.
+#: classes/Activation.php:108
+msgid "The Query Monitor plugin requires PHP version %1$s or higher. This site is running version %2$s."
+msgstr "Tillägget Query Monitor kräver PHP-version %1$s eller senare. Denna webbplats kör %2$s."
+
+#. translators: No user
+#: collectors/request.php:129
+msgctxt "user"
+msgid "None"
+msgstr "Ingen"
+
+#. translators: %d: User ID
+#: collectors/request.php:124
+msgid "Current User: #%d"
+msgstr "Nuvarande användar-id: %d"
+
+#: output/html/db_queries.php:206
+msgid "Non-SELECT"
+msgstr "Inte SELECT"
+
+#: output/html/db_queries.php:84
+msgid "Error Message"
+msgstr "Felmeddelande"
+
+#: output/html/db_queries.php:85
+msgid "Error Code"
+msgstr "Felkod"
+
+#: output/html/caps.php:198
+msgid "No capability checks were recorded."
+msgstr "Inga behörighetskontroller har registrerats."
+
+#: output/html/caps.php:81
+msgid "Result"
+msgstr "Resultat"
+
+#: output/html/caps.php:77 output/html/environment.php:70
+#: output/html/environment.php:185
+msgid "User"
+msgstr "Användare"
+
+#: output/html/caps.php:69
+msgid "Capability Check"
+msgstr "Behörighetskontroll"
+
+#: output/Html.php:269
+msgid "Non-Core"
+msgstr "Ej i kärnan"
+
+#: output/html/caps.php:23
+msgid "Capability Checks"
+msgstr "Behörighetskontroller"
+
+#. translators: %s: Number of transient values that were updated
+#: output/html/transients.php:134
+msgid "Transient Updates (%s)"
+msgstr "Uppdateringar av transientvariabler (%s)"
+
+#: output/html/transients.php:41
+msgctxt "size of transient value"
+msgid "Size"
+msgstr "Storlek"
+
+#: output/html/transients.php:38
+msgctxt "transient type"
+msgid "Type"
+msgstr "Typ"
+
+#: output/html/transients.php:36
+msgid "Updated Transient"
+msgstr "Uppdaterad transientvariabel"
+
+#: output/html/transients.php:132
+msgid "Transient Updates"
+msgstr "Uppdateringar av transientvariabler"
+
+#: output/html/request.php:95
+msgid "View Main Query"
+msgstr "Visa huvudfrågan"
+
+#. translators: %s: Number of calls to the HTTP API
+#: output/html/http.php:366
+msgid "HTTP API Calls (%s)"
+msgstr "Anrop till HTTP-API (%s)"
+
+#: output/html/http.php:58
+msgid "Status"
+msgstr "Status"
+
+#: output/html/http.php:24 output/html/http.php:364
+msgid "HTTP API Calls"
+msgstr "Anrop till HTTP-API"
+
+#: output/html/environment.php:142
+msgid "Extensions"
+msgstr "Utökningar"
+
+#: output/html/environment.php:127
+msgid "Error Reporting"
+msgstr "Felrapportering"
+
+#: output/html/hooks.php:23
+msgid "Hooks & Actions"
+msgstr "Hooks och åtgärder"
+
+#: output/html/db_queries.php:225 output/html/db_queries.php:408
+msgid "Main Query"
+msgstr "Huvudfråga"
+
+#. translators: 1: Cache hit rate percentage, 2: number of cache hits, 3:
+#. number of cache misses
+#: output/html/overview.php:199
+msgid "%1$s%% hit rate (%2$s hits, %3$s misses)"
+msgstr "%1$s %% andel cacheträffar (%2$s träffar, %3$s missar)"
+
+#. translators: 1: Symlink file name, 2: URL to wiki page
+#: output/html/db_queries.php:178
+msgid "Extended query information such as the component and affected rows is not available. A conflicting %1$s file is present. <a href=\"%2$s\" target=\"_blank\" class=\"qm-external-link\">See this wiki page for more information.</a>"
+msgstr "Utökad information om databasfrågor, såsom komponent och berörda rader, är inte tillgänglig. Det finns en motstridig fil %1$s. <a href=\"%2$s\" target=\"_blank\" class=\"qm-external-link\">Mer information finns på denna wiki-sida.</a>"
+
+#: output/html/theme.php:67
+msgid "Template Hierarchy"
+msgstr "Mallhierarki"
+
+#: collectors/php_errors.php:249
+msgctxt "Suppressed PHP error level"
+msgid "Deprecated (Suppressed)"
+msgstr "Föråldrat (undertryckt)"
+
+#: collectors/php_errors.php:248
+msgctxt "Suppressed PHP error level"
+msgid "Strict (Suppressed)"
+msgstr "Strikt (undertryckt)"
+
+#: collectors/php_errors.php:247
+msgctxt "Suppressed PHP error level"
+msgid "Notice (Suppressed)"
+msgstr "Påpekande (undertryckt)"
+
+#: collectors/php_errors.php:246
+msgctxt "Suppressed PHP error level"
+msgid "Warning (Suppressed)"
+msgstr "Varning (undertryckt)"
+
+#. translators: %s: Memory usage in kilobytes
+#: output/html/overview.php:276
+msgctxt "Memory usage"
+msgid "%s kB"
+msgstr "%s kB"
+
+#. translators: %s: Page load time in seconds with a decimal fraction
+#: output/html/overview.php:271
+msgctxt "Page load time"
+msgid "%s S"
+msgstr "%s s"
+
+#: output/html/overview.php:221
+msgid "External object cache not in use"
+msgstr "Extern objekts-cache används inte"
+
+#. translators: %s: Number of database queries
+#: output/html/db_queries.php:475 output/html/db_queries.php:482
+msgctxt "Query count"
+msgid "%s Q"
+msgid_plural "%s Q"
+msgstr[0] "%s Q"
+msgstr[1] ""
+
+#. translators: %s: Database query time in seconds
+#: output/html/db_queries.php:469
+msgctxt "Query time"
+msgid "%s S"
+msgid_plural "%s S"
+msgstr[0] "%s s"
+msgstr[1] ""
+
+#: output/html/assets.php:52
+msgid "Position"
+msgstr "Position"
+
+#: output/html/assets.php:38
+msgid "Footer"
+msgstr "Sidfot"
+
+#: output/html/assets.php:37
+msgid "Header"
+msgstr "Sidhuvud"
+
+#: output/html/assets.php:35
+msgid "Missing"
+msgstr "Saknas"
+
+#: output/html/admin.php:43 output/html/admin.php:65 output/html/headers.php:65
+msgid "Value"
+msgstr "Värde"
+
+#: output/html/admin.php:42
+msgid "Property"
+msgstr "Egenskap"
+
+#. translators: 1: Post type name, 2: Post ID
+#: collectors/request.php:221
+msgid "Single %1$s: #%2$d"
+msgstr "Enkelsida %1$s: id %2$d"
+
+#. translators: %d: Multisite site ID
+#: collectors/request.php:141
+msgid "Current Site: #%d"
+msgstr "Nuvarande webbplats: id %d"
+
+#: collectors/php_errors.php:243
+msgctxt "PHP error level"
+msgid "Deprecated"
+msgstr "Föråldrat"
+
+#: collectors/php_errors.php:242
+msgctxt "PHP error level"
+msgid "Strict"
+msgstr "Strikt"
+
+#: collectors/php_errors.php:241
+msgctxt "PHP error level"
+msgid "Notice"
+msgstr "Påpekande"
+
+#: collectors/php_errors.php:240
+msgctxt "PHP error level"
+msgid "Warning"
+msgstr "Varning"
+
+#. translators: %s: Hook name
+#: collectors/http.php:205
+msgid "Request not executed due to a filter on %s"
+msgstr "Förfrågan utfördes inte på grund av ett filter mot %s"
+
+#. translators: Undefined PHP constant
+#: classes/Collector.php:81
+msgid "undefined"
+msgstr "odefinierad"
+
+#: output/html/theme.php:74
+msgid "Template Parts"
+msgstr "Malldelar"
+
+#: output/html/overview.php:216
+msgid "External object cache in use"
+msgstr "Extern objekts-cache används"
+
+#: output/html/overview.php:188
+msgid "Object Cache"
+msgstr "Objekts-cache"
+
+#. translators: An HTTP API request has disabled certificate verification. 1:
+#. Relevant argument name
+#: output/html/http.php:110
+msgid "Certificate verification disabled (%s)"
+msgstr "Certifikatverifiering är inaktiverad (%s)"
+
+#. translators: %s: Number of duplicate database queries
+#: output/html/db_dupes.php:129
+msgid "Duplicate Queries (%s)"
+msgstr "Duplicerade frågor (%s)"
+
+#. translators: %s: Number of calls to a PHP function
+#: output/html/db_dupes.php:54
+msgid "%s call"
+msgid_plural "%s calls"
+msgstr[0] "%s anrop"
+msgstr[1] "%s anrop"
+
+#: output/html/db_dupes.php:46
+msgid "Potential Troublemakers"
+msgstr "Potentiella problemfaktorer"
+
+#: output/html/db_dupes.php:44
+msgid "Components"
+msgstr "Komponenter"
+
+#: output/html/db_dupes.php:42
+msgid "Callers"
+msgstr "Källor för anrop"
+
+#: output/html/db_dupes.php:24
+msgid "Duplicate Queries"
+msgstr "Duplicerade frågor"
+
+#. translators: %s: Plugin name
+#: classes/Util.php:125
+msgid "MU Plugin: %s"
+msgstr "MU tillägg: %s"
+
+#: output/html/php_errors.php:124
+msgid "Unknown location"
+msgstr "Okänd plats"
+
+#: output/html/theme.php:109 output/html/theme.php:134
+#: output/html/db_callers.php:99 output/html/languages.php:78
+msgid "None"
+msgstr "Inga"
+
+#: output/html/request.php:67
+msgid "All Matching Rewrite Rules"
+msgstr "Alla matchande omskrivningsregler"
+
+#: output/html/languages.php:87
+msgid "Not Found"
+msgstr "Hittades inte"
+
+#: output/html/languages.php:38
+msgid "Text Domain"
+msgstr "Textdomän"
+
+#: output/html/environment.php:271
+msgid "Address"
+msgstr "Adress"
+
+#: output/html/environment.php:269
+msgid "Software"
+msgstr "Programvara"
+
+#. translators: %s: Name of database controller
+#: output/html/environment.php:172
+msgid "Database: %s"
+msgstr "Databas: %s"
+
+#: output/html/environment.php:169 output/html/environment.php:187
+msgid "Database"
+msgstr "Databas"
+
+#. translators: %s: Name of database controller
+#: output/html/db_queries.php:520
+msgid "Queries: %s"
+msgstr "Databasfrågor: %s"
+
+#. translators: 1: Name of PHP constant, 2: Value of PHP constant
+#: output/html/db_queries.php:64
+msgid "No database queries were logged because the %1$s constant is set to %2$s."
+msgstr "Inga databasfrågor loggades eftersom konstanten %1$s har värdet %2$s."
+
+#: output/html/languages.php:23
+msgid "Languages"
+msgstr "Språk"
+
+#. translators: Debug Bar add-on name
+#: output/html/debug_bar.php:27
+msgid "Debug Bar: %s"
+msgstr "Felsökningslist: %s"
+
+#: classes/Util.php:243
+msgid "Unable to determine source of lambda function"
+msgstr "Det går inte att avgöra lambda-funktionens källa"
+
+#. Author of the plugin
+msgid "John Blackbourn"
+msgstr "John Blackbourn"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://querymonitor.com/"
+msgstr "https://querymonitor.com/"
+
+#. translators: %s: Symlink file location
+#: classes/QueryMonitor.php:133
+msgid "The symlink at %s is no longer pointing to the correct location. Please remove the symlink, then deactivate and reactivate Query Monitor."
+msgstr "Den symboliska länken vid %s pekar inte längre till rätt plats. Ta först bort den symboliska länken och inaktivera och aktivera sedan åter Query Monitor."
+
+#: output/html/transients.php:40
+msgid "Expiration"
+msgstr "Giltighetstid"
+
+#: output/html/languages.php:39
+msgid "Type"
+msgstr "Typ"
+
+#. translators: %s: Template file name
+#: output/html/theme.php:183
+msgid "Template: %s"
+msgstr "Mall: %s"
+
+#: output/html/theme.php:156
+msgid "Body Classes"
+msgstr "Klasser inom body"
+
+#: output/html/theme.php:48
+msgid "Template File"
+msgstr "Mallfil"
+
+#. translators: %s: Number of additional query variables
+#: output/html/request.php:211
+msgid "Request (+%s)"
+msgstr "Begäran (+%s)"
+
+#: output/html/request.php:136
+msgid "Queried Object"
+msgstr "Efterfrågat objekt"
+
+#: output/html/request.php:166
+msgid "Multisite"
+msgstr "Multisite"
+
+#: output/html/request.php:87
+msgid "Query Vars"
+msgstr "Variabler för databasfrågan"
+
+#: output/html/request.php:39
+msgid "Query String"
+msgstr "Sträng för databasfrågan"
+
+#: output/html/request.php:38
+msgid "Matched Query"
+msgstr "Matchad databasfråga"
+
+#: output/html/request.php:37
+msgid "Matched Rule"
+msgstr "Matchad regel"
+
+#: output/html/php_errors.php:55
+msgid "Location"
+msgstr "Plats"
+
+#: output/html/php_errors.php:54 output/html/db_dupes.php:41
+msgid "Count"
+msgstr "Antal"
+
+#. translators: %s: Memory used in kilobytes
+#: output/headers/overview.php:33 output/html/overview.php:119
+msgid "%s kB"
+msgstr "%s kB"
+
+#: output/html/overview.php:153
+msgid "Database Query Time"
+msgstr "Tid för databasfråga"
+
+#: output/html/overview.php:111
+msgid "Peak Memory Usage"
+msgstr "Maximal minnesanvändning"
+
+#: output/html/overview.php:80
+msgid "Page Generation Time"
+msgstr "Tid för generering av sidan"
+
+#. translators: 1: Percentage of time limit used, 2: Time limit in seconds
+#: output/headers/overview.php:25 output/html/overview.php:92
+msgid "%1$s%% of %2$ss limit"
+msgstr "%1$s%% av gränsen på %2$s s"
+
+#. translators: 1: Percentage of memory limit used, 2: Memory limit in
+#. kilobytes
+#: output/headers/overview.php:38 output/html/overview.php:131
+msgid "%1$s%% of %2$s kB limit"
+msgstr "%1$s%% av gränsen på %2$s kB"
+
+#: output/html/http.php:64
+msgid "Timeout"
+msgstr "Timeout"
+
+#. translators: %s: Error message text
+#: output/html/hooks.php:165 output/html/block_editor.php:208
+msgid "Error: %s"
+msgstr "Fel: %s"
+
+#. translators: %s: Action name
+#: output/html/hooks.php:113
+msgid "Warning: The %s action is extremely resource intensive. Try to avoid using it."
+msgstr "Varning: Åtgärden %s är kräver stora resurser. Undvik att använda den."
+
+#: output/html/hooks.php:42 output/Html.php:110
+msgid "Action"
+msgstr "Åtgärd"
+
+#: output/html/hooks.php:39 output/Html.php:141
+msgid "Hook"
+msgstr "Hook"
+
+#: output/html/environment.php:266
+msgid "Server"
+msgstr "Server"
+
+#: output/html/environment.php:46
+msgid "Help"
+msgstr "Hjälp"
+
+#. translators: %s: Original value of a variable
+#: output/html/environment.php:104
+msgid "Overridden at runtime from %s"
+msgstr "Åsidosätts vid körning från %s"
+
+#: output/html/db_queries.php:529
+msgid "Queries"
+msgstr "Databasfrågor"
+
+#. translators: %s: Number of slow database queries
+#: output/html/db_queries.php:556
+msgid "Slow Queries (%s)"
+msgstr "Långsamma databasfrågor (%s)"
+
+#. translators: %s: Number of database errors
+#: output/html/db_queries.php:542
+msgid "Database Errors (%s)"
+msgstr "Databasfel (%s)"
+
+#: output/html/db_queries.php:119 output/html/db_queries.php:251
+msgid "Rows"
+msgstr "Rader"
+
+#. translators: 1: Symlink file name, 2: URL to wiki page
+#: output/html/db_queries.php:181
+msgid "Extended query information such as the component and affected rows is not available. Query Monitor was unable to symlink its %1$s file into place. <a href=\"%2$s\" target=\"_blank\" class=\"qm-external-link\">See this wiki page for more information.</a>"
+msgstr "Utökad information om databasfrågor, såsom komponenten och berörda rader, är inte tillgänglig. Query Monitor lyckades inte lägga in %1$s med symbolisk länk. <a href=\"%2$s\" target=\"_blank\" class=\"qm-external-link\">Se denna wiki-sida för mer information.</a>"
+
+#. translators: %s: Name of database controller
+#: output/html/db_queries.php:154
+msgid "%s Queries"
+msgstr "Databasfrågor via %s"
+
+#: output/html/db_callers.php:41 output/html/http.php:60
+#: output/html/languages.php:40 output/html/caps.php:83
+#: output/html/transients.php:42 output/html/db_queries.php:82
+#: output/html/db_queries.php:112 output/html/db_queries.php:231
+#: output/html/logger.php:45
+msgid "Caller"
+msgstr "Anrop från"
+
+#. translators: %s: Database query time in seconds
+#: output/html/db_queries.php:104
+msgid "Slow Database Queries (above %ss)"
+msgstr "Långsamma databasfrågor (över %s s)"
+
+#: output/html/hooks.php:44 output/html/http.php:62
+#: output/html/php_errors.php:57 output/html/caps.php:85
+#: output/html/transients.php:43 output/html/db_queries.php:83
+#: output/html/db_queries.php:115 output/html/db_queries.php:240
+#: output/html/logger.php:47 output/html/db_components.php:42
+#: output/html/timing.php:43 output/Html.php:144
+msgid "Component"
+msgstr "Komponent"
+
+#: dispatchers/WP_Die.php:113
+msgid "Call stack:"
+msgstr "Anropsstack:"
+
+#: output/html/db_queries.php:81 output/html/db_queries.php:111
+#: output/html/db_queries.php:218 output/html/db_dupes.php:40
+msgid "Query"
+msgstr "Databasfråga"
+
+#: output/html/db_queries.php:77
+msgid "Database Errors"
+msgstr "Databasfel"
+
+#: output/html/db_callers.php:50 output/html/http.php:65
+#: output/html/db_queries.php:122 output/html/db_queries.php:256
+#: output/html/db_components.php:51 output/html/timing.php:41
+msgid "Time"
+msgstr "Tid"
+
+#. translators: %s: Name of missing script or style dependency
+#: output/html/assets.php:118
+msgid "%s (missing)"
+msgstr "%s (saknas)"
+
+#: output/html/transients.php:67 output/html/request.php:52
+#: output/html/request.php:129 output/html/request.php:145
+#: output/html/request.php:159
+msgid "none"
+msgstr "inget"
+
+#: output/html/assets.php:69 output/html/environment.php:52
+#: output/html/environment.php:247 output/html/environment.php:270
+msgid "Version"
+msgstr "Version"
+
+#: output/html/assets.php:67
+msgid "Dependents"
+msgstr "Beroende"
+
+#: output/html/assets.php:64
+msgid "Dependencies"
+msgstr "Beroenden"
+
+#: output/html/assets_styles.php:18 output/html/assets_styles.php:25
+msgid "Styles"
+msgstr "Stilar"
+
+#: output/html/assets_scripts.php:18 output/html/assets_scripts.php:25
+msgid "Scripts"
+msgstr "Skript"
+
+#: output/html/admin.php:101
+msgid "Column Action:"
+msgstr "Kolumnåtgärd:"
+
+#: output/html/admin.php:98
+msgid "Column Filters:"
+msgstr "Kolumnfilter:"
+
+#: output/Html.php:278
+msgctxt "\"All\" option for filters"
+msgid "All"
+msgstr "Alla"
+
+#: dispatchers/Html.php:390
+msgid "Clear authentication cookie"
+msgstr "Rensa cookie för autentisering"
+
+#: dispatchers/Html.php:391
+msgid "Set authentication cookie"
+msgstr "Ställ in cookie för autentisering"
+
+#: dispatchers/Html.php:399
+msgid "Authentication"
+msgstr "Autentisering"
+
+#: dispatchers/Html.php:193
+msgid "PHP Errors in Ajax Response"
+msgstr "PHP-fel i Ajax-svar"
+
+#. Plugin Name of the plugin
+#: classes/QueryMonitor.php:145 classes/QueryMonitor.php:176
+#: dispatchers/WP_Die.php:100 dispatchers/Html.php:108 dispatchers/Html.php:304
+#: dispatchers/Html.php:627
+msgid "Query Monitor"
+msgstr "Query Monitor"
+
+#: output/html/transients.php:23
+msgid "Transients"
+msgstr "Transientvariabler"
+
+#: collectors/request.php:258
+msgid "Unknown queried object"
+msgstr "Okänt efterfrågat objekt"
+
+#. translators: %s: Post type name
+#: collectors/request.php:251
+msgid "Post type archive: %s"
+msgstr "Arkiv för inläggstyp: %s"
+
+#. translators: %s: Taxonomy term name
+#: collectors/request.php:241
+msgid "Term archive: %s"
+msgstr "Termarkiv: %s"
+
+#. translators: %s: Author name
+#: collectors/request.php:231
+msgid "Author archive: %s"
+msgstr "Författararkiv: %s"
+
+#: output/html/request.php:23 output/html/request.php:36
+#: output/html/request.php:209
+msgid "Request"
+msgstr "Förfrågan"
+
+#: output/html/php_errors.php:25 output/html/php_errors.php:246
+msgid "PHP Errors"
+msgstr "PHP-fel"
+
+#: output/html/overview.php:23 dispatchers/Html.php:311
+#: dispatchers/Html.php:353
+msgid "Overview"
+msgstr "Översikt"
+
+#: output/html/http.php:42
+msgid "Error"
+msgstr "Fel"
+
+#: collectors/http.php:239
+msgid "Request timed out"
+msgstr "Begäran tog för lång tid"
+
+#: output/html/environment.php:23
+msgid "Environment"
+msgstr "Miljö"
+
+#: output/html/overview.php:162 output/html/db_queries.php:28
+msgid "Database Queries"
+msgstr "Databasfrågor"
+
+#: output/html/db_components.php:23 output/html/db_components.php:110
+msgid "Queries by Component"
+msgstr "Databasfrågor per komponent"
+
+#: output/html/db_callers.php:23 output/html/db_callers.php:113
+msgid "Queries by Caller"
+msgstr "Databasfrågor per anropare"
+
+#: output/html/conditionals.php:24 output/html/conditionals.php:88
+msgid "Conditionals"
+msgstr "Villkorat"
+
+#: output/html/admin.php:23
+msgid "Admin Screen"
+msgstr "Admin-skärmen"
+
+#. translators: 1: Line number, 2: File name
+#: classes/Util.php:238
+msgid "Anonymous function on line %1$d of %2$s"
+msgstr "Anonym funktion på rad %1$d av %2$s"
+
+#. translators: 1: Line number, 2: File name
+#: classes/Util.php:214
+msgid "Closure on line %1$d of %2$s"
+msgstr "”Closure” på rad %1$d av %2$s"
+
+#: output/html/theme.php:63 output/html/theme.php:177
+#: output/html/overview.php:115 output/html/php_errors.php:148
+#: output/html/environment.php:74 output/html/environment.php:196
+#: output/html/environment.php:285 output/html/db_queries.php:330
+#: output/html/db_queries.php:427 classes/Util.php:178
+msgid "Unknown"
+msgstr "Okänt"
+
+#: output/html/hooks.php:59 output/Html.php:264 classes/Util.php:174
+msgid "Core"
+msgstr "Kärnan"
+
+#: output/html/theme.php:41 classes/Util.php:161
+msgid "Parent Theme"
+msgstr "Överordnat tema"
+
+#: output/html/theme.php:24 output/html/theme.php:37 classes/Util.php:156
+msgid "Theme"
+msgstr "Tema"
+
+#: classes/Util.php:154
+msgid "Child Theme"
+msgstr "Barntema"
+
+#. translators: %s: Plugin name
+#: classes/Util.php:148
+msgid "VIP Plugin: %s"
+msgstr "VIP-tillägg: %s"
+
+#. translators: %s: Plugin name
+#: classes/Util.php:128
+msgid "Plugin: %s"
+msgstr "Tillägg: %s"
