@@ -408,3 +408,4 @@ function carolinaspa_blog_related_products() {
     <?php endif;
 }
 add_action('storefront_post_content_after', 'carolinaspa_blog_related_products');
+
