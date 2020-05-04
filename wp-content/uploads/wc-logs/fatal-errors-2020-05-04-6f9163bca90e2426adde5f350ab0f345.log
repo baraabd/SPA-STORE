@@ -1,0 +1,77 @@
+2020-05-04T11:31:07+00:00 CRITICAL syntax error, unexpected '}' in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php on line 12
+
+2020-05-04T11:31:10+00:00 CRITICAL syntax error, unexpected '}' in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php on line 12
+
+2020-05-04T11:31:11+00:00 CRITICAL syntax error, unexpected '}' in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php on line 12
+
+2020-05-04T11:31:43+00:00 CRITICAL Uncaught Error: Class 'Store' not found in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-admin/includes/plugin.php(659): include_once()
+#1 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-admin/plugins.php(44): activate_plugin('custom-post-typ...', 'http://localhos...', false)
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php on line 22
+
+2020-05-04T11:31:46+00:00 CRITICAL Uncaught Error: Class 'Store' not found in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-admin/includes/plugin.php(2255): include()
+#1 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-admin/plugins.php(177): plugin_sandbox_scrape('custom-post-typ...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php on line 22
+
+2020-05-04T11:31:46+00:00 CRITICAL Uncaught Error: Class 'Store' not found in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-admin/includes/plugin.php(2255): include()
+#1 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-admin/plugins.php(177): plugin_sandbox_scrape('custom-post-typ...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php on line 22
+
+2020-05-04T13:16:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function _x(), 1 passed in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php on line 19 and at least 2 expected in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/l10n.php:356
+Stack trace:
+#0 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php(19): _x('Stores')
+#1 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/class-wp-hook.php(287): SPAStoreCPT->create_SPAStoreCPT('')
+#2 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-settings.php(540): do_action('init')
+#5 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-config.php(90): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-load.php in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/l10n.php on line 356
+
+2020-05-04T13:16:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function _x(), 1 passed in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php on line 19 and at least 2 expected in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/l10n.php:356
+Stack trace:
+#0 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php(19): _x('Stores')
+#1 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/class-wp-hook.php(287): SPAStoreCPT->create_SPAStoreCPT('')
+#2 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-settings.php(540): do_action('init')
+#5 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-config.php(90): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-load.php in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/l10n.php on line 356
+
+2020-05-04T13:17:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function _x(), 1 passed in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php on line 19 and at least 2 expected in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/l10n.php:356
+Stack trace:
+#0 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php(19): _x('Stores')
+#1 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/class-wp-hook.php(287): SPAStoreCPT->create_SPAStoreCPT('')
+#2 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-settings.php(540): do_action('init')
+#5 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-config.php(90): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-load.php in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/l10n.php on line 356
+
+2020-05-04T13:18:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function _x(), 1 passed in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php on line 19 and at least 2 expected in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/l10n.php:356
+Stack trace:
+#0 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php(19): _x('Stores')
+#1 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/class-wp-hook.php(287): SPAStoreCPT->create_SPAStoreCPT('')
+#2 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-settings.php(540): do_action('init')
+#5 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-config.php(90): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-load.php in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/l10n.php on line 356
+
+2020-05-04T13:18:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function _x(), 1 passed in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php on line 19 and at least 2 expected in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/l10n.php:356
+Stack trace:
+#0 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-content/plugins/custom-post-type/custom-post-type.php(19): _x('Stores')
+#1 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/class-wp-hook.php(287): SPAStoreCPT->create_SPAStoreCPT('')
+#2 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-settings.php(540): do_action('init')
+#5 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-config.php(90): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-load.php in /Applications/MAMP/htdocs/SPA-STORE/SPA-STORE/wp-includes/l10n.php on line 356
+
