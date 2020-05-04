@@ -1,0 +1,390 @@
+2020-05-04T11:54:56+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2020-05-04T11:54:56+00:00 DEBUG Parsing products CSV.
+2020-05-04T11:54:56+00:00 DEBUG Finished parsing products CSV.
+2020-05-04T11:54:56+00:00 DEBUG ---
+2020-05-04T11:54:56+00:00 DEBUG Processing products.
+2020-05-04T11:54:56+00:00 DEBUG > Row 1 - preparing for import.
+2020-05-04T11:54:56+00:00 DEBUG > &#8220;Home Kit&#8221;Invalid or duplicated SKU. with post ID:
+2020-05-04T11:54:56+00:00 DEBUG > Row 2 - preparing for import.
+2020-05-04T11:54:56+00:00 DEBUG > &#8220;25&#8221; ID already exists.
+2020-05-04T11:54:56+00:00 DEBUG > Row 3 - preparing for import.
+2020-05-04T11:54:56+00:00 DEBUG > &#8220;Towel&#8221;Product with same ID already exists.
+2020-05-04T11:54:56+00:00 DEBUG > Row 4 - preparing for import.
+2020-05-04T11:54:56+00:00 DEBUG > &#8220;Spa Guide (PDF)&#8221;Product with same ID already exists.
+2020-05-04T11:54:56+00:00 DEBUG > Row 5 - preparing for import.
+2020-05-04T11:54:56+00:00 DEBUG > &#8220;Towel + Home kit + Guide&#8221;Product with same ID already exists.
+2020-05-04T11:54:56+00:00 DEBUG > Row 6 - preparing for import.
+2020-05-04T11:54:56+00:00 DEBUG > &#8220;79&#8221; ID already exists.
+2020-05-04T11:54:56+00:00 DEBUG > Row 7 - preparing for import.
+2020-05-04T11:54:56+00:00 DEBUG > &#8220;83&#8221; ID already exists.
+2020-05-04T11:54:56+00:00 DEBUG > Row 8 - preparing for import.
+2020-05-04T11:54:56+00:00 DEBUG > &#8220;100&#8221; ID already exists.
+2020-05-04T11:54:56+00:00 DEBUG > Row 9 - preparing for import.
+2020-05-04T11:54:56+00:00 DEBUG > &#8220;103&#8221; ID already exists.
+2020-05-04T11:54:56+00:00 DEBUG Finished processing products.
+2020-05-04T11:54:56+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2020-05-04T11:54:56+00:00 DEBUG Parsing products CSV.
+2020-05-04T11:54:56+00:00 DEBUG Finished parsing products CSV.
+2020-05-04T11:54:56+00:00 DEBUG ---
+2020-05-04T11:54:56+00:00 DEBUG Processing products.
+2020-05-04T11:54:56+00:00 DEBUG > Row 1 - preparing for import.
+2020-05-04T11:54:56+00:00 DEBUG > &#8220;107&#8221; ID already exists.
+2020-05-04T11:54:56+00:00 DEBUG > Row 2 - preparing for import.
+2020-05-04T11:54:56+00:00 DEBUG > &#8220;111&#8221; ID already exists.
+2020-05-04T11:54:56+00:00 DEBUG > Row 3 - preparing for import.
+2020-05-04T11:54:56+00:00 DEBUG > &#8220;113&#8221; ID already exists.
+2020-05-04T11:54:56+00:00 DEBUG > Row 4 - preparing for import.
+2020-05-04T11:54:56+00:00 DEBUG > &#8220;116&#8221; ID already exists.
+2020-05-04T11:54:56+00:00 DEBUG > Row 5 - preparing for import.
+2020-05-04T11:54:56+00:00 DEBUG > &#8220;collagen skin &amp; nails&#8221;Product with same ID already exists.
+2020-05-04T11:54:56+00:00 DEBUG > Row 6 - preparing for import.
+2020-05-04T11:54:57+00:00 DEBUG > &#8220;121&#8221; ID already exists.
+2020-05-04T11:54:57+00:00 DEBUG > Row 7 - preparing for import.
+2020-05-04T11:54:57+00:00 DEBUG > Inserting collagen plus
+2020-05-04T11:54:57+00:00 DEBUG > Inserted - post ID is 128.
+2020-05-04T11:54:57+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45357_x2.jpg"
+2020-05-04T11:54:58+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45357_x2.jpg"
+2020-05-04T11:54:58+00:00 DEBUG > > Error getting remote image
+2020-05-04T11:54:58+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45359_x2.jpg"
+2020-05-04T11:54:59+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45359_x2.jpg"
+2020-05-04T11:54:59+00:00 DEBUG > > Error getting remote image
+2020-05-04T11:54:59+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45358_x2.jpg"
+2020-05-04T11:55:01+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45358_x2.jpg"
+2020-05-04T11:55:01+00:00 DEBUG > > Error getting remote image
+2020-05-04T11:55:01+00:00 DEBUG > > Images set
+2020-05-04T11:55:01+00:00 DEBUG > Finished importing post ID 128.
+2020-05-04T11:55:01+00:00 DEBUG > Row 8 - preparing for import.
+2020-05-04T11:55:01+00:00 DEBUG > &#8220;135&#8221; ID already exists.
+2020-05-04T11:55:01+00:00 DEBUG Finished processing products.
+2020-05-04T11:57:03+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2020-05-04T11:57:03+00:00 DEBUG Parsing products CSV.
+2020-05-04T11:57:03+00:00 DEBUG Finished parsing products CSV.
+2020-05-04T11:57:03+00:00 DEBUG ---
+2020-05-04T11:57:03+00:00 DEBUG Processing products.
+2020-05-04T11:57:03+00:00 DEBUG > Row 1 - preparing for merge.
+2020-05-04T11:57:03+00:00 DEBUG > &#8220;Home Kit&#8221;Invalid or duplicated SKU. with post ID:
+2020-05-04T11:57:03+00:00 DEBUG > Row 2 - preparing for merge.
+2020-05-04T11:57:03+00:00 DEBUG > &#8220;25&#8221; is not a product.
+2020-05-04T11:57:03+00:00 DEBUG > Row 3 - preparing for merge.
+2020-05-04T11:57:03+00:00 DEBUG > &#8220;39&#8221; is not a product.
+2020-05-04T11:57:03+00:00 DEBUG > Row 4 - preparing for merge.
+2020-05-04T11:57:03+00:00 DEBUG > &#8220;46&#8221; is not a product.
+2020-05-04T11:57:03+00:00 DEBUG > Row 5 - preparing for merge.
+2020-05-04T11:57:03+00:00 DEBUG > &#8220;50&#8221; is not a product.
+2020-05-04T11:57:03+00:00 DEBUG > Row 6 - preparing for merge.
+2020-05-04T11:57:03+00:00 DEBUG > &#8220;79&#8221; is not a product.
+2020-05-04T11:57:03+00:00 DEBUG > Row 7 - preparing for merge.
+2020-05-04T11:57:03+00:00 DEBUG > &#8220;83&#8221; is not a product.
+2020-05-04T11:57:03+00:00 DEBUG > Row 8 - preparing for merge.
+2020-05-04T11:57:03+00:00 DEBUG > &#8220;100&#8221; is not a product.
+2020-05-04T11:57:03+00:00 DEBUG > Row 9 - preparing for merge.
+2020-05-04T11:57:03+00:00 DEBUG > &#8220;103&#8221; is not a product.
+2020-05-04T11:57:03+00:00 DEBUG Finished processing products.
+2020-05-04T11:57:04+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2020-05-04T11:57:04+00:00 DEBUG Parsing products CSV.
+2020-05-04T11:57:04+00:00 DEBUG Finished parsing products CSV.
+2020-05-04T11:57:04+00:00 DEBUG ---
+2020-05-04T11:57:04+00:00 DEBUG Processing products.
+2020-05-04T11:57:04+00:00 DEBUG > Row 1 - preparing for merge.
+2020-05-04T11:57:04+00:00 DEBUG > &#8220;107&#8221; is not a product.
+2020-05-04T11:57:04+00:00 DEBUG > Row 2 - preparing for merge.
+2020-05-04T11:57:04+00:00 DEBUG > &#8220;111&#8221; is not a product.
+2020-05-04T11:57:04+00:00 DEBUG > Row 3 - preparing for merge.
+2020-05-04T11:57:04+00:00 DEBUG > &#8220;113&#8221; is not a product.
+2020-05-04T11:57:04+00:00 DEBUG > Row 4 - preparing for merge.
+2020-05-04T11:57:04+00:00 DEBUG > &#8220;116&#8221; is not a product.
+2020-05-04T11:57:04+00:00 DEBUG > Row 5 - preparing for merge.
+2020-05-04T11:57:04+00:00 DEBUG > Merging post ID 118.
+2020-05-04T11:57:04+00:00 DEBUG > Merged post data: Array
+(
+    [ID] => 118
+    [post_content] => Vill du ta lite extra väl hand om dina naglar och din hud på ett smidigt sätt? Med Healthwell Collagen Skin &amp; Nails kapslar får du i dig flera av de ämnen som är viktiga för att upprätthålla spänstigheten i huden samt bibehålla kvaliteten på naglarna. Proteinet kollagen utgör ungefär en tredjedel av allt protein i kroppen och finns i flera olika stödjevävnader, i huden, i ben, i senor och blodkärlsväggar bland annat. I Healthwell Collagen Skin &amp; Nails används koncentrerade kollagenpeptider typ I. Förutom kollagen innehåller kapslarna även hyaluronsyra, vitamin C, zink och pantotensyra.
+<ul>
+ 	<li>Kollagenkapslar</li>
+ 	<li>Kollagen bidrar till att behålla elasticitet i huden</li>
+ 	<li>Med vätskebindande hyaluronsyra</li>
+ 	<li>Med antioxidanten zink</li>
+ 	<li>Innehåller C-vitamin</li>
+</ul>
+    [post_excerpt] => Healthwell kollagenkapslar- För hud och naglar
+- Med kollagen &amp; hyaluronsyra
+- Innehåller antioxidanter
+    [post_title] => collagen skin & nails
+    [post_author] => 1
+    [post_date] => 2020-05-04 06:31:43
+    [post_name] => collagen-skin-nails
+    [post_status] => publish
+    [comment_status] => open
+)
+
+2020-05-04T11:57:04+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_skin___nails_37027_x2.jpg"
+2020-05-04T11:57:05+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_skin___nails_37027_x2.jpg"
+2020-05-04T11:57:05+00:00 DEBUG > > Error getting remote image
+2020-05-04T11:57:05+00:00 DEBUG > > Images set
+2020-05-04T11:57:05+00:00 DEBUG > Finished merging post ID 118.
+2020-05-04T11:57:05+00:00 DEBUG > Row 6 - preparing for merge.
+2020-05-04T11:57:05+00:00 DEBUG > &#8220;121&#8221; is not a product.
+2020-05-04T11:57:05+00:00 DEBUG > Row 7 - preparing for merge.
+2020-05-04T11:57:05+00:00 DEBUG > Merging post ID 128.
+2020-05-04T11:57:06+00:00 DEBUG > Merged post data: Array
+(
+    [ID] => 128
+    [post_content] => hydrolyserat kollagen med c-vitamin
+Collagen Plus från Healthwell är ett 100 % naturligt tillskott med kollagen. Kollagen finns naturligt i all vår bindvävsstruktur där det medverkar till uppbyggnaden av leder, brosk, ligament, hud, hår och naglar. Collagen Plus är även förstärkt med naturliga citrusbioflavonoider med vitamin C, som i sin tur bidrar till en normal kollagenbildning. Collagen Plus passar dig som vill säkra ett extra intag av kollagen. Rekommenderat intag är 1-2 kapslar per dag.
+
+100 % naturligt kollagen
+Hydrolyserat kollagen från marint ursprung
+Kollagen medverkar till uppbyggnaden av ledbrosk och bindväv
+Naturliga citrusbioflavonoider med vitamin C tillsatt
+vad är kollagen bra för?
+Kollagen är ett fiberprotein som hjälper till att bygga upp strukturen för all vår bindväv, exempelvis brosk, leder och huden, håret och naglarna. Kollagen behövs för dess uppbyggnad, stöd och hållbarhet. Kollagen utgör nästan 30 % av kroppens protein, och utan det skulle vi inte kunna leva - vi skulle helt enkelt falla ihop.
+
+Med collagen plus har min hud blivit märkbart spänstigare!
+- Christina
+
+Kollagen är uppbyggt av både essentiella och icke-essentiella aminosyror, där prolin och glycin är några av de främsta. Kollagen delas upp i olika typer, vars uppgifter skiftar något. Kollagen typ II är det kollagen som främst återfinns i elastiskt brosk som i ledbrosket.
+    [post_excerpt] => Naturligt tillskott med kollagen.
+- Kapslar
+- Med C-vitamin
+- För ett aktivt liv
+    [post_title] => collagen plus
+    [post_author] => 1
+    [post_date] => 2020-05-04 06:45:18
+    [post_name] => collagen-plus
+    [post_status] => publish
+    [comment_status] => open
+)
+
+2020-05-04T11:57:06+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45357_x2.jpg"
+2020-05-04T11:57:07+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45357_x2.jpg"
+2020-05-04T11:57:07+00:00 DEBUG > > Error getting remote image
+2020-05-04T11:57:07+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45359_x2.jpg"
+2020-05-04T11:57:08+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45359_x2.jpg"
+2020-05-04T11:57:08+00:00 DEBUG > > Error getting remote image
+2020-05-04T11:57:08+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45358_x2.jpg"
+2020-05-04T11:57:09+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45358_x2.jpg"
+2020-05-04T11:57:09+00:00 DEBUG > > Error getting remote image
+2020-05-04T11:57:09+00:00 DEBUG > > Images set
+2020-05-04T11:57:09+00:00 DEBUG > Finished merging post ID 128.
+2020-05-04T11:57:09+00:00 DEBUG > Row 8 - preparing for merge.
+2020-05-04T11:57:09+00:00 DEBUG > &#8220;135&#8221; is not a product.
+2020-05-04T11:57:09+00:00 DEBUG Finished processing products.
+2020-05-04T11:58:58+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2020-05-04T11:58:58+00:00 DEBUG Parsing products CSV.
+2020-05-04T11:58:58+00:00 DEBUG Finished parsing products CSV.
+2020-05-04T11:58:58+00:00 DEBUG ---
+2020-05-04T11:58:58+00:00 DEBUG Processing products.
+2020-05-04T11:58:58+00:00 DEBUG > Row 1 - preparing for import.
+2020-05-04T11:58:58+00:00 DEBUG > &#8220;Home Kit&#8221;Product with same ID already exists.
+2020-05-04T11:58:58+00:00 DEBUG > Row 2 - preparing for import.
+2020-05-04T11:58:58+00:00 DEBUG > &#8220;25&#8221; ID already exists.
+2020-05-04T11:58:58+00:00 DEBUG > Row 3 - preparing for import.
+2020-05-04T11:58:58+00:00 DEBUG > &#8220;Towel&#8221;Product with same ID already exists.
+2020-05-04T11:58:58+00:00 DEBUG > Row 4 - preparing for import.
+2020-05-04T11:58:58+00:00 DEBUG > &#8220;Spa Guide (PDF)&#8221;Product with same ID already exists.
+2020-05-04T11:58:58+00:00 DEBUG > Row 5 - preparing for import.
+2020-05-04T11:58:58+00:00 DEBUG > &#8220;Towel + Home kit + Guide&#8221;Product with same ID already exists.
+2020-05-04T11:58:58+00:00 DEBUG > Row 6 - preparing for import.
+2020-05-04T11:58:58+00:00 DEBUG > &#8220;79&#8221; ID already exists.
+2020-05-04T11:58:58+00:00 DEBUG > Row 7 - preparing for import.
+2020-05-04T11:58:58+00:00 DEBUG > &#8220;83&#8221; ID already exists.
+2020-05-04T11:58:58+00:00 DEBUG > Row 8 - preparing for import.
+2020-05-04T11:58:58+00:00 DEBUG > &#8220;100&#8221; ID already exists.
+2020-05-04T11:58:58+00:00 DEBUG > Row 9 - preparing for import.
+2020-05-04T11:58:58+00:00 DEBUG > &#8220;103&#8221; ID already exists.
+2020-05-04T11:58:58+00:00 DEBUG Finished processing products.
+2020-05-04T11:58:59+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2020-05-04T11:58:59+00:00 DEBUG Parsing products CSV.
+2020-05-04T11:58:59+00:00 DEBUG Finished parsing products CSV.
+2020-05-04T11:58:59+00:00 DEBUG ---
+2020-05-04T11:58:59+00:00 DEBUG Processing products.
+2020-05-04T11:58:59+00:00 DEBUG > Row 1 - preparing for import.
+2020-05-04T11:58:59+00:00 DEBUG > &#8220;107&#8221; ID already exists.
+2020-05-04T11:58:59+00:00 DEBUG > Row 2 - preparing for import.
+2020-05-04T11:58:59+00:00 DEBUG > &#8220;111&#8221; ID already exists.
+2020-05-04T11:58:59+00:00 DEBUG > Row 3 - preparing for import.
+2020-05-04T11:58:59+00:00 DEBUG > &#8220;113&#8221; ID already exists.
+2020-05-04T11:58:59+00:00 DEBUG > Row 4 - preparing for import.
+2020-05-04T11:58:59+00:00 DEBUG > &#8220;116&#8221; ID already exists.
+2020-05-04T11:58:59+00:00 DEBUG > Row 5 - preparing for import.
+2020-05-04T11:58:59+00:00 DEBUG > &#8220;collagen skin &amp; nails&#8221;Product with same ID already exists.
+2020-05-04T11:58:59+00:00 DEBUG > Row 6 - preparing for import.
+2020-05-04T11:58:59+00:00 DEBUG > &#8220;121&#8221; ID already exists.
+2020-05-04T11:58:59+00:00 DEBUG > Row 7 - preparing for import.
+2020-05-04T11:58:59+00:00 DEBUG > &#8220;collagen plus&#8221;Product with same ID already exists.
+2020-05-04T11:58:59+00:00 DEBUG > Row 8 - preparing for import.
+2020-05-04T11:58:59+00:00 DEBUG > &#8220;135&#8221; ID already exists.
+2020-05-04T11:58:59+00:00 DEBUG Finished processing products.
+2020-05-04T12:04:36+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2020-05-04T12:04:36+00:00 DEBUG Parsing products CSV.
+2020-05-04T12:04:36+00:00 DEBUG Finished parsing products CSV.
+2020-05-04T12:04:36+00:00 DEBUG ---
+2020-05-04T12:04:36+00:00 DEBUG Processing products.
+2020-05-04T12:04:36+00:00 DEBUG > Row 1 - preparing for import.
+2020-05-04T12:04:36+00:00 DEBUG > &#8220;Home Kit&#8221;Product with same ID already exists.
+2020-05-04T12:04:36+00:00 DEBUG > Row 2 - preparing for import.
+2020-05-04T12:04:36+00:00 DEBUG > &#8220;25&#8221; ID already exists.
+2020-05-04T12:04:36+00:00 DEBUG > Row 3 - preparing for import.
+2020-05-04T12:04:36+00:00 DEBUG > &#8220;Towel&#8221;Product with same ID already exists.
+2020-05-04T12:04:36+00:00 DEBUG > Row 4 - preparing for import.
+2020-05-04T12:04:36+00:00 DEBUG > &#8220;Spa Guide (PDF)&#8221;Product with same ID already exists.
+2020-05-04T12:04:36+00:00 DEBUG > Row 5 - preparing for import.
+2020-05-04T12:04:36+00:00 DEBUG > &#8220;Towel + Home kit + Guide&#8221;Product with same ID already exists.
+2020-05-04T12:04:36+00:00 DEBUG > Row 6 - preparing for import.
+2020-05-04T12:04:36+00:00 DEBUG > &#8220;79&#8221; ID already exists.
+2020-05-04T12:04:36+00:00 DEBUG > Row 7 - preparing for import.
+2020-05-04T12:04:36+00:00 DEBUG > &#8220;83&#8221; ID already exists.
+2020-05-04T12:04:36+00:00 DEBUG > Row 8 - preparing for import.
+2020-05-04T12:04:36+00:00 DEBUG > &#8220;100&#8221; ID already exists.
+2020-05-04T12:04:36+00:00 DEBUG > Row 9 - preparing for import.
+2020-05-04T12:04:36+00:00 DEBUG > &#8220;103&#8221; ID already exists.
+2020-05-04T12:04:36+00:00 DEBUG Finished processing products.
+2020-05-04T12:04:37+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2020-05-04T12:04:37+00:00 DEBUG Parsing products CSV.
+2020-05-04T12:04:37+00:00 DEBUG Finished parsing products CSV.
+2020-05-04T12:04:37+00:00 DEBUG ---
+2020-05-04T12:04:37+00:00 DEBUG Processing products.
+2020-05-04T12:04:37+00:00 DEBUG > Row 1 - preparing for import.
+2020-05-04T12:04:37+00:00 DEBUG > &#8220;107&#8221; ID already exists.
+2020-05-04T12:04:37+00:00 DEBUG > Row 2 - preparing for import.
+2020-05-04T12:04:37+00:00 DEBUG > &#8220;111&#8221; ID already exists.
+2020-05-04T12:04:37+00:00 DEBUG > Row 3 - preparing for import.
+2020-05-04T12:04:37+00:00 DEBUG > &#8220;113&#8221; ID already exists.
+2020-05-04T12:04:37+00:00 DEBUG > Row 4 - preparing for import.
+2020-05-04T12:04:37+00:00 DEBUG > &#8220;116&#8221; ID already exists.
+2020-05-04T12:04:37+00:00 DEBUG > Row 5 - preparing for import.
+2020-05-04T12:04:37+00:00 DEBUG > &#8220;collagen skin &amp; nails&#8221;Product with same ID already exists.
+2020-05-04T12:04:37+00:00 DEBUG > Row 6 - preparing for import.
+2020-05-04T12:04:37+00:00 DEBUG > &#8220;121&#8221; ID already exists.
+2020-05-04T12:04:37+00:00 DEBUG > Row 7 - preparing for import.
+2020-05-04T12:04:37+00:00 DEBUG > &#8220;collagen plus&#8221;Product with same ID already exists.
+2020-05-04T12:04:37+00:00 DEBUG > Row 8 - preparing for import.
+2020-05-04T12:04:37+00:00 DEBUG > &#8220;135&#8221; ID already exists.
+2020-05-04T12:04:37+00:00 DEBUG Finished processing products.
+2020-05-04T12:06:55+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2020-05-04T12:06:55+00:00 DEBUG Parsing products CSV.
+2020-05-04T12:06:55+00:00 DEBUG Finished parsing products CSV.
+2020-05-04T12:06:55+00:00 DEBUG ---
+2020-05-04T12:06:55+00:00 DEBUG Processing products.
+2020-05-04T12:06:55+00:00 DEBUG > Row 1 - preparing for import.
+2020-05-04T12:06:55+00:00 DEBUG > Inserting Home Kit
+2020-05-04T12:06:55+00:00 DEBUG > Inserted - post ID is 19.
+2020-05-04T12:06:55+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/03_home_kit_1.jpg"
+2020-05-04T12:06:56+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/03_home_kit_1.jpg"
+2020-05-04T12:06:56+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:06:56+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/03_home_kit_2.jpg"
+2020-05-04T12:06:57+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/03_home_kit_2.jpg"
+2020-05-04T12:06:57+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:06:57+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/03_home_kit_3.jpg"
+2020-05-04T12:07:00+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/03_home_kit_3.jpg"
+2020-05-04T12:07:00+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:00+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/03_home_kit_4.jpg"
+2020-05-04T12:07:02+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/03_home_kit_4.jpg"
+2020-05-04T12:07:02+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:02+00:00 DEBUG > > Images set
+2020-05-04T12:07:02+00:00 DEBUG > Finished importing post ID 19.
+2020-05-04T12:07:02+00:00 DEBUG > Row 2 - preparing for import.
+2020-05-04T12:07:02+00:00 DEBUG > Inserting Towels pack with 3
+2020-05-04T12:07:02+00:00 DEBUG > Inserted - post ID is 200.
+2020-05-04T12:07:02+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/09_towel_pack.jpg"
+2020-05-04T12:07:03+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/09_towel_pack.jpg"
+2020-05-04T12:07:03+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:03+00:00 DEBUG > > Images set
+2020-05-04T12:07:03+00:00 DEBUG > Finished importing post ID 200.
+2020-05-04T12:07:03+00:00 DEBUG > Row 3 - preparing for import.
+2020-05-04T12:07:03+00:00 DEBUG > Inserting Towel
+2020-05-04T12:07:03+00:00 DEBUG > Inserted - post ID is 39.
+2020-05-04T12:07:03+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_bluenavy.jpg"
+2020-05-04T12:07:05+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_bluenavy.jpg"
+2020-05-04T12:07:05+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:05+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_yellow.jpg"
+2020-05-04T12:07:07+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_yellow.jpg"
+2020-05-04T12:07:07+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:07+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_red.jpg"
+2020-05-04T12:07:08+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_red.jpg"
+2020-05-04T12:07:08+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:08+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_pink.jpg"
+2020-05-04T12:07:09+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_pink.jpg"
+2020-05-04T12:07:09+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:09+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_green.jpg"
+2020-05-04T12:07:11+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_green.jpg"
+2020-05-04T12:07:11+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:11+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_brown.jpg"
+2020-05-04T12:07:12+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_brown.jpg"
+2020-05-04T12:07:12+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:12+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_bluenavy-1.jpg"
+2020-05-04T12:07:13+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_bluenavy-1.jpg"
+2020-05-04T12:07:13+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:13+00:00 DEBUG > > Images set
+2020-05-04T12:07:13+00:00 DEBUG > Finished importing post ID 39.
+2020-05-04T12:07:13+00:00 DEBUG > Row 4 - preparing for import.
+2020-05-04T12:07:13+00:00 DEBUG > Inserting Spa Guide (PDF)
+2020-05-04T12:07:13+00:00 DEBUG > Inserted - post ID is 46.
+2020-05-04T12:07:13+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/guide.jpg"
+2020-05-04T12:07:15+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/guide.jpg"
+2020-05-04T12:07:15+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:15+00:00 DEBUG > > Images set
+2020-05-04T12:07:15+00:00 DEBUG > Finished importing post ID 46.
+2020-05-04T12:07:15+00:00 DEBUG > Row 5 - preparing for import.
+2020-05-04T12:07:15+00:00 DEBUG > Inserting Towel + Home kit + Guide
+2020-05-04T12:07:15+00:00 DEBUG > Inserted - post ID is 50.
+2020-05-04T12:07:16+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/03_home_kit_3.jpg"
+2020-05-04T12:07:17+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/03_home_kit_3.jpg"
+2020-05-04T12:07:17+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:17+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_bluenavy.jpg"
+2020-05-04T12:07:19+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/04/00_towel_bluenavy.jpg"
+2020-05-04T12:07:19+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:19+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/guide.jpg"
+2020-05-04T12:07:21+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/guide.jpg"
+2020-05-04T12:07:21+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:21+00:00 DEBUG > > Images set
+2020-05-04T12:07:21+00:00 DEBUG > Finished importing post ID 50.
+2020-05-04T12:07:21+00:00 DEBUG > Row 6 - preparing for import.
+2020-05-04T12:07:21+00:00 DEBUG > &#8220;79&#8221; ID already exists.
+2020-05-04T12:07:21+00:00 DEBUG > Row 7 - preparing for import.
+2020-05-04T12:07:21+00:00 DEBUG > &#8220;83&#8221; ID already exists.
+2020-05-04T12:07:21+00:00 DEBUG > Row 8 - preparing for import.
+2020-05-04T12:07:21+00:00 DEBUG > &#8220;100&#8221; ID already exists.
+2020-05-04T12:07:21+00:00 DEBUG > Row 9 - preparing for import.
+2020-05-04T12:07:21+00:00 DEBUG > &#8220;103&#8221; ID already exists.
+2020-05-04T12:07:21+00:00 DEBUG Finished processing products.
+2020-05-04T12:07:22+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2020-05-04T12:07:22+00:00 DEBUG Parsing products CSV.
+2020-05-04T12:07:22+00:00 DEBUG Finished parsing products CSV.
+2020-05-04T12:07:22+00:00 DEBUG ---
+2020-05-04T12:07:22+00:00 DEBUG Processing products.
+2020-05-04T12:07:22+00:00 DEBUG > Row 1 - preparing for import.
+2020-05-04T12:07:22+00:00 DEBUG > &#8220;107&#8221; ID already exists.
+2020-05-04T12:07:22+00:00 DEBUG > Row 2 - preparing for import.
+2020-05-04T12:07:22+00:00 DEBUG > &#8220;111&#8221; ID already exists.
+2020-05-04T12:07:22+00:00 DEBUG > Row 3 - preparing for import.
+2020-05-04T12:07:22+00:00 DEBUG > &#8220;113&#8221; ID already exists.
+2020-05-04T12:07:22+00:00 DEBUG > Row 4 - preparing for import.
+2020-05-04T12:07:22+00:00 DEBUG > &#8220;116&#8221; ID already exists.
+2020-05-04T12:07:22+00:00 DEBUG > Row 5 - preparing for import.
+2020-05-04T12:07:22+00:00 DEBUG > Inserting collagen skin &amp; nails
+2020-05-04T12:07:22+00:00 DEBUG > Inserted - post ID is 118.
+2020-05-04T12:07:22+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_skin___nails_37027_x2.jpg"
+2020-05-04T12:07:23+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_skin___nails_37027_x2.jpg"
+2020-05-04T12:07:23+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:23+00:00 DEBUG > > Images set
+2020-05-04T12:07:23+00:00 DEBUG > Finished importing post ID 118.
+2020-05-04T12:07:23+00:00 DEBUG > Row 6 - preparing for import.
+2020-05-04T12:07:23+00:00 DEBUG > &#8220;121&#8221; ID already exists.
+2020-05-04T12:07:23+00:00 DEBUG > Row 7 - preparing for import.
+2020-05-04T12:07:23+00:00 DEBUG > Inserting collagen plus
+2020-05-04T12:07:23+00:00 DEBUG > Inserted - post ID is 128.
+2020-05-04T12:07:24+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45357_x2.jpg"
+2020-05-04T12:07:26+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45357_x2.jpg"
+2020-05-04T12:07:26+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:26+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45359_x2.jpg"
+2020-05-04T12:07:28+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45359_x2.jpg"
+2020-05-04T12:07:28+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:28+00:00 DEBUG > > Importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45358_x2.jpg"
+2020-05-04T12:07:30+00:00 DEBUG > > Error importing image "http://localhost:8888/spastore/wp-content/uploads/2020/05/collagen_plus_45358_x2.jpg"
+2020-05-04T12:07:30+00:00 DEBUG > > Error getting remote image
+2020-05-04T12:07:30+00:00 DEBUG > > Images set
+2020-05-04T12:07:30+00:00 DEBUG > Finished importing post ID 128.
+2020-05-04T12:07:30+00:00 DEBUG > Row 8 - preparing for import.
+2020-05-04T12:07:30+00:00 DEBUG > &#8220;135&#8221; ID already exists.
+2020-05-04T12:07:30+00:00 DEBUG Finished processing products.
