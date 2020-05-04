@@ -1,0 +1,16 @@
+2020-05-03T00:34:27+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-admin\includes\dashboard.php on line 20
+
+2020-05-03T23:24:44+00:00 CRITICAL Uncaught ParseError: syntax error, unexpected '=' in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-content\themes\carolinaspa\functions.php:3
+Stack trace:
+#0 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-config.php(90): require_once()
+#1 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-load.php(37): require_once('C:\\Users\\asus\\D...')
+#2 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-blog-header.php(13): require_once('C:\\Users\\asus\\D...')
+#3 C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\index.php(17): require('C:\\Users\\asus\\D...')
+#4 {main}
+
+Next Exception: syntax error, unexpected '=' in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\Users\asus\Desktop\Medieinstitute\Github Projects\SPA-STORE\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+

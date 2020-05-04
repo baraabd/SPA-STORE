@@ -1,0 +1,843 @@
+# Translation of Themes - Storefront in Swedish
+# This file is distributed under the same license as the Themes - Storefront package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-19 18:13:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Themes - Storefront\n"
+
+#. Theme Name of the theme
+msgid "Storefront"
+msgstr "Storefront"
+
+#. Description of the theme
+msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!"
+msgstr "Storefront är det perfekta temat för ditt nästa WooCommerce-projekt. Designat och utvecklat av WooCommerce Core-utvecklare, med djup integration med WooCommerce och många av de mest populära WooCommerce-utökningarna för kunder. Det finns flera inställningar för att välja utseende och färger för att personalisera din butik, flera widget-områden, responsiv design och mycket mer. Utvecklare kommer att älska den rena och utbyggbara kodbasen som gör det till en fröjd att anpassa och utöka. Letar du efter ett WooCommerce-tema? Här har du det!"
+
+#: inc/admin/class-storefront-plugin-install.php:113
+msgctxt "Translators: conjunction of two alternative options user can choose (in missing plugin admin notice). Example: \"Activate WooCommerce or learn more\""
+msgid "or"
+msgstr "eller"
+
+#: inc/storefront-template-functions.php:143
+msgid "Built with Storefront"
+msgstr "Byggt med Storefront"
+
+#: inc/storefront-template-functions.php:143
+msgid "Storefront -  The perfect platform for your next WooCommerce project."
+msgstr "Storefront – Den perfekta plattformen för ditt nästa WooCommerce-projekt."
+
+#: inc/admin/class-storefront-plugin-install.php:114
+msgid "learn more"
+msgstr "lär dig mer"
+
+#: inc/class-storefront.php:209
+msgid "Huge"
+msgstr "Enorm"
+
+#: inc/class-storefront.php:204
+msgid "Large"
+msgstr "Stor"
+
+#: inc/class-storefront.php:199
+msgid "Medium"
+msgstr "Medium"
+
+#: inc/class-storefront.php:194
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/class-storefront.php:189
+msgid "Small"
+msgstr "Liten"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1109
+msgid "You can change this text by editing the \"Welcome\" page via the \"Pages\" menu in your dashboard."
+msgstr "Du kan ändra denna text genom att redigera sidan ”Välkommen” via menyn ”Sidor” i din adminpanel."
+
+#: inc/nux/class-storefront-nux-starter-content.php:1105
+msgid "This is your homepage which is what most visitors will see when they first visit your shop."
+msgstr "Detta är din startsida vilket är vad de flesta besökare kommer att se när de först besöker din butik."
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/storefront-template-functions.php:521
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Redigera <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/storefront-template-functions.php:559
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "Etikett:"
+msgstr[1] "Etiketter:"
+
+#: inc/storefront-template-functions.php:553
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Kategori:"
+msgstr[1] "Kategorier:"
+
+#. translators: %s: post date
+#: inc/storefront-template-functions.php:467
+msgid "Posted on %s"
+msgstr "Publicerad %s"
+
+#: inc/storefront-template-functions.php:473
+msgid "by"
+msgstr "av"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:837
+msgid "Product Brands"
+msgstr "Varumärken"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:822
+msgid "Shop by Brand"
+msgstr "Handla efter varumärke"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:787
+msgid "You're viewing:"
+msgstr "Du tittar på:"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:724
+msgid "More products"
+msgstr "Fler produkter"
+
+#: inc/storefront-template-functions.php:592
+msgid "Previous post:"
+msgstr "Föregående inlägg:"
+
+#: inc/storefront-template-functions.php:591
+msgid "Next post:"
+msgstr "Nästa inlägg:"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:94
+msgid "Displays next and previous links on product pages. A product thumbnail is displayed with the title revealed on hover."
+msgstr "Visar länkar för nästa och föregående på produktsidor. En produktminiatyr visas med rubriken vid musöverföring."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:93
+msgid "Product Pagination"
+msgstr "Produktpaginering"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:84
+msgid "A small content bar at the top of the browser window which includes relevant product information and an add-to-cart button. It slides into view once the standard add-to-cart button has scrolled out of view."
+msgstr "En liten innehållsmeny längst upp i webbläsarfönstret som innehåller relevant produktinformation och en knapp för att lägga till i varukorgen. Den glider in i vyn när standardknappen för att lägga till i varukorgen har rullat bort ur vyn."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:83
+msgid "Sticky Add-To-Cart"
+msgstr "Fastklistrad lägg i varukorg"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:59
+msgid "Product Page"
+msgstr "Produktsida"
+
+#: inc/customizer/class-storefront-customizer.php:273
+msgid "Hero text color"
+msgstr "Hero-textfärg"
+
+#: inc/customizer/class-storefront-customizer.php:252
+msgid "Hero heading color"
+msgstr "Hero-sidhuvudfärg"
+
+#: inc/class-storefront.php:337
+msgid "Collapse child menu"
+msgstr "Minimera undermeny"
+
+#: inc/class-storefront.php:336
+msgid "Expand child menu"
+msgstr "Expandera undermeny"
+
+#: inc/storefront-template-functions.php:141
+msgid "Built with Storefront &amp; WooCommerce"
+msgstr "Byggt med Storefront och WooCommerce"
+
+#: inc/storefront-template-functions.php:141
+msgid "WooCommerce - The Best eCommerce Platform for WordPress"
+msgstr "WooCommerce - Den bästa e-handelsplattformen för WordPress"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:126
+msgid "Organize your menus by adding Pages, Categories, Tags, and Custom Links."
+msgstr "Organisera dina menyer genom att lägga till sidor, kategorier, etiketter och anpassade länkar."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:125
+msgid "Customize your navigation menus"
+msgstr "Anpassa dina navigationsmenyer"
+
+#: inc/class-storefront.php:505
+msgid "Post Navigation"
+msgstr "Inläggsnavigering"
+
+#: comments.php:58
+msgid "Comment Navigation Below"
+msgstr "Nedre kommentarsnavigering"
+
+#: comments.php:38
+msgid "Comment Navigation Above"
+msgstr "Övre kommentarsnavigering"
+
+#: comments.php:21
+msgid "Post Comments"
+msgstr "Inläggskommentarer"
+
+#: 404.php:39
+msgid "Promoted Products"
+msgstr "Promotade produkter"
+
+#: inc/admin/class-storefront-admin.php:174
+#: inc/admin/class-storefront-plugin-install.php:62
+msgid "Activated"
+msgstr "Aktiverad"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:542
+msgid "Best Selling Products"
+msgstr "Bästsäljande produkter"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:490
+msgid "On Sale Products"
+msgstr "Produkter på rea"
+
+#: inc/storefront-template-functions.php:309
+msgid "Edit this section"
+msgstr "Redigera denna sektion"
+
+#: inc/nux/class-storefront-nux-starter-content.php:971
+msgid "Vneck Tshirt"
+msgstr "V-ringad t-shirt"
+
+#: inc/nux/class-storefront-nux-starter-content.php:950
+msgid "Tshirt"
+msgstr "T-shirt"
+
+#: inc/nux/class-storefront-nux-starter-content.php:929
+msgid "Polo"
+msgstr "Polotröja"
+
+#: inc/nux/class-storefront-nux-starter-content.php:908
+msgid "Long Sleeve Tee"
+msgstr "Långärmad t-shirt"
+
+#: inc/nux/class-storefront-nux-starter-content.php:886
+msgid "Hoodie"
+msgstr "Hoodie"
+
+#: inc/nux/class-storefront-nux-starter-content.php:865
+msgid "Hoodie with Zipper"
+msgstr "Hoodie med dragkedja"
+
+#: inc/nux/class-storefront-nux-starter-content.php:843
+msgid "Hoodie with Pocket"
+msgstr "Hoodie med ficka"
+
+#: inc/nux/class-storefront-nux-starter-content.php:822
+msgid "Hoodie with Logo"
+msgstr "Hoodie med logga"
+
+#: inc/nux/class-storefront-nux-starter-content.php:801
+msgid "Sunglasses"
+msgstr "Solglasögon"
+
+#: inc/nux/class-storefront-nux-starter-content.php:779
+msgid "Cap"
+msgstr "Keps"
+
+#: inc/nux/class-storefront-nux-starter-content.php:757
+msgid "Belt"
+msgstr "Skärp"
+
+#: inc/nux/class-storefront-nux-starter-content.php:735
+msgid "Beanie"
+msgstr "Beaniemössa"
+
+#: inc/nux/class-storefront-nux-starter-content.php:729
+msgid "Tshirts"
+msgstr "T-shirts"
+
+#: inc/nux/class-storefront-nux-starter-content.php:726
+msgid "Hoodies"
+msgstr "Hoodies"
+
+#: inc/nux/class-storefront-nux-starter-content.php:724
+#: inc/nux/class-storefront-nux-starter-content.php:727
+#: inc/nux/class-storefront-nux-starter-content.php:730
+msgid "A short category description"
+msgstr "En kort kategoribeskrivning"
+
+#: inc/nux/class-storefront-nux-starter-content.php:723
+msgid "Accessories"
+msgstr "Accessoarer"
+
+#: inc/nux/class-storefront-nux-starter-content.php:77
+msgid "This is a page with some basic contact information, such as an address and phone number. You might also try a plugin to add a contact form."
+msgstr "Detta är en sida med några grundläggande kontaktinformation, till exempel en adress och ett telefonnummer. Du kan också prova ett tillägg för att lägga till ett kontaktformulär."
+
+#: inc/nux/class-storefront-nux-starter-content.php:76
+msgid "Contact"
+msgstr "Kontakt"
+
+#: inc/nux/class-storefront-nux-starter-content.php:72
+msgid "You might be an artist who would like to introduce yourself and your work here or maybe you&rsquo;re a business with a mission to describe."
+msgstr "Du kanske är en konstnär som vill berätta om dig själv och dina verk här eller så är du ett företag som vill nå ut med ett budskap."
+
+#: inc/nux/class-storefront-nux-starter-content.php:71
+msgid "About"
+msgstr "Om"
+
+#. translators: %s: 'End Of Line' symbol
+#: inc/nux/class-storefront-nux-starter-content.php:215
+msgid "This is your homepage which is what most visitors will see when they first visit your shop.%sYou can change this text by editing the \"Welcome\" page via the \"Pages\" menu in your dashboard."
+msgstr "Detta är din startsida, vilket är vad de flesta besökare kommer att se när de först besöker din butik.%sDu kan ändra texten genom att redigera sidan ”Välkommen” via menyn ”Sidor” i adminpanelen."
+
+#: inc/nux/class-storefront-nux-starter-content.php:213
+#: inc/nux/class-storefront-nux-starter-content.php:1101
+msgid "Welcome"
+msgstr "Välkommen"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:147
+msgid "Done"
+msgstr "Klart"
+
+#. translators: 1: open <strong> tag, 2: close <strong> tag, 3: 'End Of Line'
+#. symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:145
+msgid "All set! Remember to %1$ssave & publish%2$s your changes when you're done.%3$sYou can return to your dashboard by clicking the X in the top left corner."
+msgstr "Allt är klart! Kom ihåg att %1$sspara och publicera%2$s dina ändringar när du är klar.%3$sDu kan återvända till din adminpanel genom att klicka på X-et i det övre vänstra hörnet."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:138
+msgid "Choose colors for your button backgrounds and text. Once again, brand colors are good choices here."
+msgstr "Välj färger till dina knappars bakgrunder och text. Än en gång så är era varumärkesfärger ett bra val att använda här."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:137
+msgid "Color your buttons"
+msgstr "Färglägg dina knappar"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:132
+msgid "In the typography panel you can specify an accent color which will be applied to things like links and star ratings. We recommend using your brand color for this setting."
+msgstr "I typografipanelen så kan du ange en accentfärg som kommer användas till olika element som länkar och stjärnmässiga betyg. Vi rekommenderar att ni använder era varumärkesfärger till denna inställning."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:131
+msgid "Choose your accent color"
+msgstr "Välj din accentfärg"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:119
+msgid "Open the Site Identity Panel, then click the 'Select Logo' button to upload your logo."
+msgstr "Öppna panelen Webbplatsens identitet och klicka sedan på knappen \"Välj logotyp\" för att ladda upp din logga."
+
+#. translators: %s: 'End Of Line' symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:111
+msgid "Here you can control the overall look and feel of your store.%sTo get started, let's add your logo"
+msgstr "Här kan du anpassa det generella utseendet och känslan av din butik.%sLägg till din logga för att komma igång"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:109
+msgid "Welcome to the Customizer"
+msgstr "Välkommen till anpassaren"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:91
+msgid "Skip this step"
+msgstr "Hoppa över det här steget"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:89
+msgid "No thanks, skip the tour"
+msgstr "Nej tack, hoppa över guiden"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:112
+#: inc/nux/class-storefront-nux-admin.php:131
+msgid "Let's go!"
+msgstr "Nu kör vi!"
+
+#: inc/nux/class-storefront-nux-admin.php:126
+msgid "Add example products"
+msgstr "Lägg till exempelprodukter"
+
+#: inc/nux/class-storefront-nux-admin.php:118
+msgid "Create a homepage using Storefront's homepage template"
+msgstr "Skapa en startsida genom att använda Storefronts startsidemall"
+
+#: inc/nux/class-storefront-nux-admin.php:116
+msgid "Apply the Storefront homepage template"
+msgstr "Använd Storefronts startsidemall"
+
+#: inc/nux/class-storefront-nux-admin.php:95
+msgid "You've set up WooCommerce, now it's time to give it some style! Let's get started by entering the Customizer and adding your logo."
+msgstr "Du har nu konfigurerat WooCommerce och det är dags att anpassa dess utseende. Kom igång genom att öppna Anpassa och lägg till din logga."
+
+#: inc/nux/class-storefront-nux-admin.php:93
+msgid "Before you add your first product let's design your store. We'll add some example products for you. When you're ready let's get started by adding your logo."
+msgstr "Innan du lägger till din första produkt låt oss designa din butik. Vi lägger till några exempelprodukter åt dig. När du är redo låt oss börja med att lägga till din logga."
+
+#: inc/nux/class-storefront-nux-admin.php:89
+msgid "Design your store 🎨"
+msgstr "Designa din butik 🎨"
+
+#: inc/nux/class-storefront-nux-admin.php:85
+msgid "Activate WooCommerce"
+msgstr "Aktivera WooCommerce"
+
+#: inc/nux/class-storefront-nux-admin.php:85
+msgid "WooCommerce activated"
+msgstr "WooCommerce aktiverat"
+
+#: inc/nux/class-storefront-nux-admin.php:84
+msgid "To enable eCommerce features you need to install the WooCommerce plugin."
+msgstr "För att möjliggöra e-handelsfunktionalitet så behöver du installera tillägget WooCommerce."
+
+#: inc/nux/class-storefront-nux-admin.php:83
+msgid "Thanks for installing Storefront, you rock! 🤘"
+msgstr "Tack för att du installerat Storefront, du är grym! 🤘"
+
+#. translators: 1: column number, 2: row number
+#: inc/class-storefront.php:263
+msgid "Widgets added here will appear in column %1$d of footer row %2$d."
+msgstr "Widgetar tillagda här visas i kolumn %1$d av sidfotsrad %2$d."
+
+#. translators: 1: row number, 2: column number
+#: inc/class-storefront.php:260
+msgid "Footer Row %1$d - Column %2$d"
+msgstr "Sidfotsrad %1$d – kolumn %2$d"
+
+#. translators: 1: column number
+#: inc/class-storefront.php:257
+msgid "Widgets added here will appear in column %1$d of the footer."
+msgstr "Widgetar tillagda här visas i kolumn %1$d av sidfoten."
+
+#. translators: 1: column number
+#: inc/class-storefront.php:254
+msgid "Footer Column %1$d"
+msgstr "Sidfotskolumn %1$d"
+
+#: inc/admin/class-storefront-admin.php:205
+msgid "Learn more"
+msgstr "Lär dig mer"
+
+#: inc/admin/class-storefront-admin.php:198
+#: inc/admin/class-storefront-plugin-install.php:94
+msgid "Install now"
+msgstr "Installera nu"
+
+#: inc/admin/class-storefront-admin.php:136
+msgid "Check 'em out"
+msgstr "Kolla in"
+
+#: inc/admin/class-storefront-admin.php:132
+msgid "Of course they are all fully compatible with each Storefront extension."
+msgstr "Självfallet är de helt kompatibla med alla Storefront tillägg."
+
+#: inc/admin/class-storefront-admin.php:128
+msgid "Each has been designed to serve a different industry - from fashion to food."
+msgstr "Var och en har utformats för att passa olika branscher – från mode till mat."
+
+#: inc/admin/class-storefront-admin.php:124
+msgid "Quickly and easily transform your shops appearance with Storefront child themes."
+msgstr "Du kan snabbt och enkelt förvandla din butiks utseende med Storefronts barnteman"
+
+#: inc/admin/class-storefront-admin.php:120
+msgid "Alternate designs"
+msgstr "Alternativa utseenden"
+
+#: inc/admin/class-storefront-admin.php:116
+msgid "Read more and purchase"
+msgstr "Läs mer och köp"
+
+#: inc/admin/class-storefront-admin.php:111
+msgid "Make it yours without touching code with the Storefront Extensions bundle. Express yourself, optimize conversions, delight customers."
+msgstr "Gör temat till ditt egna utan att behöva ändra kod med Storefront Extensions bundle. Uttryck dig själv, optimera konvertering, gör dina kunder nöjda."
+
+#: inc/admin/class-storefront-admin.php:107
+msgid "All the tools you'll need to define your style and customize Storefront."
+msgstr "Alla verktyg du behöver för att välja din stil och anpassa Storefront."
+
+#: inc/admin/class-storefront-admin.php:101
+msgid "Storefront Extensions Bundle"
+msgstr "Storefront Extensions Bundle"
+
+#: inc/admin/class-storefront-admin.php:94
+msgid "Hello! You might be interested in the following Storefront extensions and designs."
+msgstr "Hej! Du kanske är intresserad av följande Storefront-utökningar och designer."
+
+#: inc/admin/class-storefront-admin.php:92
+msgid "One more thing... You might be interested in the following Storefront extensions and designs."
+msgstr "En sak till och… Du kanske är intresserad av följande Storefront-utökningar och designer."
+
+#. translators: 1: HTML, 2: HTML
+#: inc/admin/class-storefront-admin.php:91
+msgid "Setup complete %1$sYour Storefront adventure begins now 🚀%2$s "
+msgstr "Inställningen är slutförd %1$ssDitt äventyr med Storefront börjar nu 🚀%2$s "
+
+#: inc/admin/class-storefront-admin.php:74
+msgid "Development blog"
+msgstr "Utvecklarblogg"
+
+#: inc/admin/class-storefront-admin.php:73
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: inc/admin/class-storefront-admin.php:72
+msgid "Support"
+msgstr "Support"
+
+#: inc/class-storefront.php:241
+msgid "Widgets added to this region will appear beneath the header and above the main content."
+msgstr "Widgetar som läggs till i denna region visas under sidhuvud och över huvudinnehållet."
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:696
+msgid "My Account"
+msgstr "Mitt konto"
+
+#: 404.php:25 inc/woocommerce/storefront-woocommerce-template-functions.php:669
+msgid "Search"
+msgstr "Sök"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1074
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:523
+msgid "Best Sellers"
+msgstr "Bästsäljare"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1058
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:417
+msgid "Fan Favorites"
+msgstr "Populära produkter"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1135
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:364
+msgid "We Recommend"
+msgstr "Vi rekommenderar"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1048
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:311
+msgid "New In"
+msgstr "Nyligen inkommet"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1040
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:259
+msgid "Shop by Category"
+msgstr "Handla efter kategori"
+
+#: inc/storefront-template-functions.php:241
+msgid "Menu"
+msgstr "Meny"
+
+#: inc/class-storefront.php:239
+msgid "Below Header"
+msgstr "Under sidhuvud"
+
+#. translators: %s: Storefront
+#: inc/customizer/class-storefront-customizer-control-more.php:36
+msgid "Enjoying %s?"
+msgstr "Uppskattar du %s?"
+
+#. translators: %s: Automattic branding
+#: inc/admin/class-storefront-admin.php:145
+msgid "An %s project"
+msgstr "Ett %s-projekt"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:590
+msgid "On Sale Now"
+msgstr "På rea nu"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:600
+msgid "New In Store"
+msgstr "Nytt i butik"
+
+#: inc/customizer/class-storefront-customizer.php:286
+msgid "Header background image"
+msgstr "Bakgrundsbild för sidhuvud"
+
+#: inc/storefront-template-functions.php:577
+msgctxt "Next post"
+msgid "Next"
+msgstr "Nästa"
+
+#: inc/storefront-template-functions.php:578
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "Föregående"
+
+#: 404.php:59 404.php:61
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:436
+msgid "Popular Products"
+msgstr "Populära produkter"
+
+#: 404.php:22
+msgid "Nothing was found at this location. Try searching, or check out the links below."
+msgstr "Ingenting hittades på denna plats. Försök att söka, eller kolla länkarna nedan."
+
+#. Template Name of the theme
+#: inc/nux/class-storefront-nux-starter-content.php:208
+msgid "Homepage"
+msgstr "Startsida"
+
+#. Template Name of the theme
+msgid "Full width"
+msgstr "Full bredd"
+
+#. translators: %d: number of items in cart
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:77
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d vara"
+msgstr[1] "%d varor"
+
+#. translators: %s: search term
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:330
+msgid "Recent Products"
+msgstr "Senaste produkter"
+
+#: 404.php:45 404.php:47
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:278
+msgid "Product Categories"
+msgstr "Produktkategorier"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:384
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:580
+msgid "Featured Products"
+msgstr "Utvalda produkter"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:75
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:682
+msgid "View your shopping cart"
+msgstr "Visa din varukorg"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1066
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:470
+msgid "On Sale"
+msgstr "På rea"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:83
+msgid "Next"
+msgstr "Nästa"
+
+#: inc/storefront-template-functions.php:482
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: inc/storefront-template-functions.php:482
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: inc/storefront-template-functions.php:482
+msgid "Leave a comment"
+msgstr "Lämna en kommentar"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/storefront-template-functions.php:544
+#: inc/storefront-template-functions.php:547
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post title
+#: inc/storefront-template-functions.php:417
+msgid "Continue reading %s"
+msgstr "Fortsätt läsa %s"
+
+#: inc/storefront-template-functions.php:355
+#: inc/storefront-template-functions.php:426
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: inc/storefront-template-functions.php:296
+msgid "Skip to navigation"
+msgstr "Hoppa till navigering"
+
+#: inc/storefront-template-functions.php:272
+msgid "Secondary Navigation"
+msgstr "Sekundär navigering"
+
+#: inc/storefront-template-functions.php:297
+msgid "Skip to content"
+msgstr "Hoppa till innehåll"
+
+#: inc/storefront-template-functions.php:240
+msgid "Primary Navigation"
+msgstr "Primär navigation"
+
+#: inc/storefront-template-functions.php:74
+msgid "Edit"
+msgstr "Redigera"
+
+#: inc/storefront-template-functions.php:48
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar granskning."
+
+#: inc/nux/class-storefront-nux-starter-content.php:192
+#: inc/class-storefront.php:96
+msgid "Handheld Menu"
+msgstr "Mobil meny"
+
+#: inc/class-storefront.php:233
+msgid "Sidebar"
+msgstr "Sidopanel"
+
+#: inc/nux/class-storefront-nux-starter-content.php:182
+#: inc/class-storefront.php:95
+msgid "Secondary Menu"
+msgstr "Sekundär meny"
+
+#: inc/customizer/class-storefront-customizer.php:598
+msgid "Looking for more options?"
+msgstr "Letar du efter fler alternativ?"
+
+#: inc/nux/class-storefront-nux-starter-content.php:162
+#: inc/class-storefront.php:94
+msgid "Primary Menu"
+msgstr "Primär meny"
+
+#: inc/customizer/class-storefront-customizer.php:567
+msgid "General Layout"
+msgstr "Allmän layout"
+
+#: inc/customizer/class-storefront-customizer.php:583
+msgid "More"
+msgstr "Mer"
+
+#: inc/customizer/class-storefront-customizer.php:362
+msgid "Customize the look & feel of your website footer."
+msgstr "Anpassa utseendet och känslan av din webbplats sidfot."
+
+#: inc/customizer/class-storefront-customizer.php:457
+msgid "Customize the look & feel of your website buttons."
+msgstr "Anpassa utseendet och känslan av din webbplats knappar."
+
+#: inc/customizer/class-storefront-customizer.php:455
+msgid "Buttons"
+msgstr "Knappar"
+
+#: inc/customizer/class-storefront-customizer.php:537
+msgid "Alternate button text color"
+msgstr "Alternativ textfärg på knappar"
+
+#: inc/customizer/class-storefront-customizer.php:516
+msgid "Alternate button background color"
+msgstr "Alternativ bakgrundsfärg på knappar"
+
+#: inc/customizer/class-storefront-customizer.php:550
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/customizer/class-storefront-customizer.php:360
+msgid "Footer"
+msgstr "Sidfot"
+
+#: inc/customizer/class-storefront-customizer.php:347
+#: inc/customizer/class-storefront-customizer.php:442
+msgid "Link color"
+msgstr "Länkfärg"
+
+#: inc/customizer/class-storefront-customizer.php:305
+#: inc/customizer/class-storefront-customizer.php:379
+#: inc/customizer/class-storefront-customizer.php:474
+msgid "Background color"
+msgstr "Bakgrundsfärg"
+
+#: inc/customizer/class-storefront-customizer.php:189
+#: inc/customizer/class-storefront-customizer.php:400
+msgid "Heading color"
+msgstr "Rubrikfärg"
+
+#: inc/customizer/class-storefront-customizer.php:231
+msgid "Link / accent color"
+msgstr "Länk-/accentfärg"
+
+#: inc/customizer/class-storefront-customizer.php:210
+#: inc/customizer/class-storefront-customizer.php:326
+#: inc/customizer/class-storefront-customizer.php:421
+#: inc/customizer/class-storefront-customizer.php:495
+msgid "Text color"
+msgstr "Textfärg"
+
+#: inc/customizer/class-storefront-customizer.php:171
+msgid "Typography"
+msgstr "Typografi"
+
+#: inc/customizer/class-storefront-customizer.php:126
+msgid "Header"
+msgstr "Sidhuvud"
+
+#. translators: 1: Storefront, 2: start <a> tag, 3: Storefront, 4: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:29
+msgid "There's a range of %1$s extensions available to put additional power in your hands. Check out the %2$s%3$s%4$s page in your dashboard for more information."
+msgstr "Det finns ett flertal kraftfulla tillägg till %1$s som underlättar för dig. Mer information finns på sidan %2$s%3$s%4$s i adminpanelen."
+
+#. translators: 1: start <a> tag, 2: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:43
+msgid "Why not leave us a review on %1$sWordPress.org%2$s?  We'd really appreciate it!"
+msgstr "Varför inte lämna oss en recension på %1$sWordPress.org%2$s?  Vi skulle verkligen uppskatta det!"
+
+#: inc/customizer/class-storefront-customizer.php:122
+msgid "Background"
+msgstr "Bakgrund"
+
+#: inc/nux/class-storefront-nux-admin.php:85
+msgid "Install WooCommerce"
+msgstr "Installera WooCommerce"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:118
+msgid "Add your logo"
+msgstr "Lägg till din logga"
+
+#: inc/admin/class-storefront-admin.php:183
+#: inc/admin/class-storefront-plugin-install.php:75
+msgid "Activate"
+msgstr "Aktivera"
+
+#: content-none.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det verkar inte som om vi kan hitta det du letar efter. Kanske kan en sökning hjälpa."
+
+#: content-none.php:29
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Tyvärr, men inget matchade dina söktermer. Försök igen med några andra nyckelord."
+
+#. translators: 1: URL
+#: content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Är du redo att publicera ditt första inlägg? <a href=\"%1$s\">Kom igång här</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Inget hittat"
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr "Kommentarer är stängda."
+
+#: comments.php:41 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Nyare kommentarer &rarr;"
+
+#: comments.php:40 comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Äldre kommentarer"
+
+#: comments.php:39 comments.php:59
+msgid "Comment navigation"
+msgstr "Kommentarsnavigering"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:30
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s reaktion på &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s reaktioner på &ldquo;%2$s&rdquo;"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoppsan! Den sidan kan inte hittas."
+
+#. Author of the theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Author URI of the theme
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"
+
+#. Theme URI of the theme
+msgid "https://woocommerce.com/storefront/"
+msgstr "https://woocommerce.com/storefront/"

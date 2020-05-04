@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>WordPress &#8250; ReadMe</title>
+	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
+</head>
+<body>
+<h1 id="logo">
+	<a href="https://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" /></a>
+</h1>
+<p style="text-align: center">Semantisk personlig publiceringsplattform</p>
+
+<h2>Först och främst</h2>
+<p>Välkommen. För mig är WordPress ett mycket speciellt projekt. Varje utvecklare och bidragsgivare bidrar med något unikt i det hela och tillsammans skapar vi något mycket vackert, som jag är stolt att delta i. WordPress är resultatet av många tusentals timmars arbete, och vi försöker att göra det ännu bättre för var dag. Tack för att du låter det bli en del av din värld.</p>
+<p style="text-align: right">&#8212; Matt Mullenweg</p>
+
+<h2>Installation: Den berömda 5-minutersinstallationen</h2>
+<ol>
+	<li>Packa upp zip-filen i en tom katalog och ladda upp hela filstrukturen till din webb-server.</li>
+	<li>Öppna sidan <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> i webbläsaren. Detta kommer att ta dig genom processen för att skapa filen <code>wp-config.php</code> som innehåller den nödvändiga informationen för anslutning till webbplatsens underliggande databas.
+		<ol>
+			<li>Var inte orolig om den automatiska installationen av någon anledning inte fungerar. Sånt kan hända på vissa webbhotell. Öppna filen <code>wp-config-sample.php</code> i ett textredigeringsprogram, t.ex. WordPad eller liknande, och fyll i informationen om din databasanslutning.</li>
+			<li>Spara sedan filen under namnet <code>wp-config.php</code> och ladda upp den till webbhotellet.</li>
+			<li>Öppna <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> i webbläsaren.</li>
+		</ol>
+	</li>
+	<li>När konfigurationsfilen är färdig kommer installationsproceduren att bygga de databastabeller som din blogg behöver. Om något blir fel bör du kontrollera filen <code>wp-config.php</code> en extra gång och försöka igen. Om det fortfarande inte skulle fungera är du välkommen att besöka <a href="https://sv.wordpress.org/support/" title="WordPress-supporten">support-forumet</a> och berätta om ditt problem. Förbered all information som kan vara till hjälp.</li>
+	<li><strong>Om du inte angav något lösenord kommer systemet att ge dig ett. Se till att spara det.</strong> Om du inte angav något användarnamn, kommer det att vara <code>admin</code>.</li>
+	<li>När allt är klart bör installationsprogrammet skicka dig vidare till <a href="wp-login.php">inloggningssidan</a>. Logga in med ditt användarnamn och lösenord som du skapade under installationen. Om systemet skapade ett lösenord åt dig kan du klicka på Användare – Din profil för att ändra lösenordet.</li>
+</ol>
+
+<h2>Uppdateringar</h2>
+<h3>Användning av den automatiska uppdateringen</h3>
+<p>Om du uppdaterar från version 2.7 eller senare kan du använda den automatiska uppdateringen:</p>
+<ol>
+	<li>Öppna <span class="file"><a href="wp-admin/update-core.php">wp-admin/update-core.php</a></span> i din webbläsare och följ instruktionerna.</li>
+	<li>Svårare än så är det inte!</li>
+</ol>
+
+<h3>Manuell uppdatering</h3>
+<ol>
+	<li>Se först till att du har säkerhetskopior på alla filer som du eventuellt kan ha ändrat, t.ex. <code>index.php</code>.</li>
+	<li>Radera dina gamla WordPress-filer, men spara de du gjort ändringar i.</li>
+	<li>Ladda upp de nya filerna.</li>
+	<li>Öppna webbläsaren och gå till <span class="file"><a href="wp-admin/upgrade.php">/wp-admin/upgrade.php</a>.</span></li>
+</ol>
+
+<h2>Att flytta till WordPress från andra system</h2>
+<p>WordPress kan <a href="https://codex.wordpress.org/Importing_Content">importera innehåll från en rad olika system</a>. Börja med att installera och konfigurera WordPress enligt beskrivningen ovan. Sedan kan du använda <a href="wp-admin/import.php" title="Import to WordPress">våra importverktyg</a>.</p>
+
+<h2>Systemkrav</h2>
+<ul>
+	<li><a href="https://secure.php.net/">PHP</a> version <strong>5.6.20</strong> eller senare.</li>
+	<li><a href="https://www.mysql.com/">MySQL</a> version <strong>5.0</strong> eller senare.</li>
+</ul>
+
+<h3>Rekommenderas</h3>
+<ul>
+	<li><a href="https://secure.php.net/">PHP</a> version <strong>7.3</strong> eller senare.</li>
+	<li><a href="https://www.mysql.com/">MySQL</a> version <strong>5.6</strong> eller senare.</li>
+	<li>Apache-modulen <a href="https://httpd.apache.org/docs/2.2/mod/mod_rewrite.html">mod_rewrite</a>.</li>
+	<li>Stöd för <a href="https://wordpress.org/news/2016/12/moving-toward-ssl/">HTTPS</a>.</li>
+	<li>Länka gärna till <a href="https://wordpress.org/">wordpress.org</a> från din webbplats.</li>
+</ul>
+
+<h2>Online-resurser</h2>
+<p>Om du undrar över något som inte besvaras i det här dokumentet kan du söka bland all online-information som finns för WordPress:</p>
+<dl>
+	<dt><a href="https://codex.wordpress.org/">WordPress Codex</a></dt>
+		<dd>Codex är encyklopedin för allt som rör WordPress. Det är den mest omfattande informationskällan som finns för WordPress.</dd>
+	<dt><a href="https://sv.wordpress.org/news/">WordPress svenska blogg</a></dt>
+		<dd>Här publiceras bl.a. information om nya versioner av WordPress. Om du använder WordPress på svenska kan du hitta länkar hit från admin-panelen för din WordPress-webbplats.</dd>
+	<dt><a href="https://wpsv.se/">WPSV</a></dt>
+		<dd>WPSV är hemmabasen för den svenska communityn kring WordPress. Vi underhåller den svenska versionen av WordPress, ordnar WordPress-träffar, hjälper varandra med support o.s.v. Allt arbete sker på frivillig väg, och du är välkommen att också hjälpa till.</dd>
+	<dt><a href="https://wordpress.org/news/">Den officiella WordPress-bloggen</a></dt>
+		<dd>Här hittar du den senaste officiella informationen om WordPress och dess uppdateringar (på engelska). Om du använder WordPress på engelska kan du hitta denna information i din egen admin-panel.</dd>
+	<dt><a href="https://planet.wordpress.org/">WordPress Planet</a></dt>
+		<dd>WordPress Planet är en webbplats som samlar artiklar och inlägg om WordPress från en rad olika bloggar runtom i världen (på engelska).</dd>
+	<dt><a href="https://sv.wordpress.org/support/">WordPress Supportforum</a></dt>
+		<dd>Om du letat överallt men ändå inte hittat svar på din fråga kan du ställa din fråga till andra WordPress-användare i forumet. Du har störst chans att få hjälp om du ser till att sätta en tydlig, beskrivande rubrik på din fråga och inkludera så detaljerad information som möjligt och om vad du redan har provat. Länken ovan går till det svenska forumet. Det internationella forumet hittar du på <a href="https://wordpress.org/support/">https://wordpress.org/support/</a>.</dd>
+	<dt><a href="https://codex.wordpress.org/IRC">WordPress <abbr title="Internet Relay Chat">IRC</abbr>-kanal</a></dt>
+		<dd>Det finns även en chatt-kanal för diskussioner kring WordPress, där man ibland tar upp supportärenden. Länken här ovan leder till en sida med mer information om detta. (<a href="irc://irc.freenode.net/wordpress">irc.freenode.net #wordpress</a>)</dd>
+</dl>
+
+<h2>Några ord på vägen</h2>
+<ul>
+	<li>Om du har några förslag, idéer eller kommentarer eller (Ajdå!) har hittat något fel är du välkommen till <a href="https://wordpress.org/support/">support-forumet</a>.</li>
+	<li>WordPress har ett rejält <abbr title="application programming interface">API</abbr> för tillägg, vilket gör det enkelt att utöka koden med nya funktioner. Om du är utvecklare och funderar på att använda detta rekommenderar vi att du läser <a href="https://developer.wordpress.org/plugins/">Plugin Developer Handbook</a>. Undvik att göra ändringar direkt i filerna i WordPress-kärnan.</li>
+</ul>
+
+<h2>Dela med dig</h2>
+<p>WordPress har inga dollarmiljoner att spendera på reklam och marknadsföring, men det finns något ännu bättre, nämligen DU. Om du tycker om WordPress, berätta gärna om det för dina vänner. Hjälp någon att komma igång, om de inte klarar det på egen hand.</p>
+
+<p>WordPress är den officiella uppföljaren till <a href="http://cafelog.com/">b2/caf&#233;log</a> som skapades av Michel V. Arbetet har fortsatts av <a href="https://wordpress.org/about/">WordPress-utvecklarna</a>. Om du vill stödja WordPress är du välkommen att göra en <a href="https://wordpress.org/donate/" title="Donera till WordPress">donation</a>.</p>
+
+<h2>Licens</h2>
+<p>WordPress är fri programvara som gjorts tillgänglig under villkoren i licensen <abbr title="GNU General Public License">GPL</abbr> version 2 eller (om du så önskar) någon senare version. Se <a href="license.txt">license.txt</a>.</p>
+
+</body>
+</html>
