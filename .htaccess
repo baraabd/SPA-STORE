@@ -1,15 +1,13 @@
 
 # BEGIN WordPress
-# The directives (lines) between `BEGIN WordPress` and `END WordPress` are
-# dynamically generated, and should only be modified via WordPress filters.
-# Any changes to the directives between these markers will be overwritten.
+# Direktiven (raderna) mellan `BEGIN WordPress` och `END WordPress` genereras dynmiskt och bör endast ändras via WordPress-filter. Eventuella ändringar till direktiven mellan dessa markörer kommer att skrivas över.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /SPA-STORE/
+RewriteBase /spastore/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /SPA-STORE/index.php [L]
+RewriteRule . /spastore/index.php [L]
 </IfModule>
 
 # END WordPress

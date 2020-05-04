@@ -1,25 +1,10 @@
-<?php 
+<?php
+function carolinaspa_new_products($args){
+    $args ['limit']   = 6;
+    $args ['columns']   = 3;
+    $args ['title']   = 'Just Released';
 
+return $args;
 
-remove_action('woocommerce_single_product_summary','woocommerce_template_single_price');
-add_action('woocommerce_single_product_summary','woocommerce_template_single_price',35);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+add_filter('storefront_recent_products_args','carolinaspa_new_products');
