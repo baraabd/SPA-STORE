@@ -124,3 +124,46 @@ function carolinaspa_display_features() { ?>
 <?php
 }
 add_action('homepage', 'carolinaspa_display_features', 15);
+
+
+// Display 3 posts in the homepage
+function carolinaspa_homepage_blog_entries(){
+    $args = array(
+        'post_type' => 'post',
+        'posts_per_page' => 3,
+        'orderby' => 'date', 
+        'order'   => 'DESC'
+    );
+    $entries = new WP_Query($args);
+    ?>
+
+<div class="homepage-blog-entries">
+<h2 class="section-title">Latest Blog Entries</h2>
+<ul>
+            <?php while($entries->have_posts()): $entries->the_post(); ?>
+            <li>
+                    <?php the_post_thumbnail('blog_entry'); ?>
+                    <h2 class="entry-title"><?php the_title(); ?></h2>
+                    <div class="entry-content">
+                        <header class="entry-header">
+                            <p>By: <?php the_author(); ?> | <?php the_time(get_option('date_format')); ?>
+                        </header>
+                        <?php 
+                            $content = wp_trim_words(get_the_content(), 20, '.');
+                            echo "<p>" . $content . "</p>";
+                        ?>
+                        <a href="<?php the_permalink(); ?>" class="entry-link">Read more &raquo;</a>
+                    </div>
+                </li>
+                
+            <?php endwhile; wp_reset_postdata(); ?>
+        </ul>
+
+
+
+
+</div>
+
+<?php
+}
+add_action('homepage', 'carolinaspa_homepage_blog_entries', 90);
