@@ -57,7 +57,7 @@ get_header(); ?>
         </ul>
        
 		</main><!-- #main -->
-	</div><!-- #primary div -->
+	</div><!-- #primary div master -->
 
  <?php
 
