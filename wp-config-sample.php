@@ -1,90 +1,89 @@
 <?php
 /**
- * The base configuration for WordPress
+ * Baskonfiguration för WordPress.
  *
- * The wp-config.php creation script uses this file during the
- * installation. You don't have to use the web site, you can
- * copy this file to "wp-config.php" and fill in the values.
+ * Denna fil används av wp-config.php-genereringsskript under installationen.
+ * Du behöver inte använda webbplatsens installationsrutin, utan kan kopiera
+ * denna fil direkt till "wp-config.php" och fylla i alla värden.
  *
- * This file contains the following configurations:
+ * Denna fil innehåller följande konfigurationer:
  *
- * * MySQL settings
- * * Secret keys
- * * Database table prefix
+ * * Inställningar för MySQL
+ * * Säkerhetsnycklar
+ * * Tabellprefix för databas
  * * ABSPATH
  *
- * @link https://wordpress.org/support/article/editing-wp-config-php/
+ * @link https://codex.wordpress.org/Editing_wp-config.php
  *
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+// ** MySQL-inställningar - MySQL-uppgifter får du från ditt webbhotell ** //
+/** Namnet på databasen du vill använda för WordPress */
+define('DB_NAME', 'Ange databasnamn här');
 
-/** MySQL database username */
-define( 'DB_USER', 'username_here' );
+/** MySQL-databasens användarnamn */
+define('DB_USER', 'Ange databasanvändare här');
 
-/** MySQL database password */
-define( 'DB_PASSWORD', 'password_here' );
+/** MySQL-databasens lösenord */
+define('DB_PASSWORD', 'Ange databaslösenord här');
 
-/** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+/** MySQL-server */
+define('DB_HOST', 'localhost');
 
-/** Database Charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+/** Teckenkodning för tabellerna i databasen. */
+define('DB_CHARSET', 'utf8');
 
-/** The Database Collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', '' );
+/** Kollationeringstyp för databasen. Ändra inte om du är osäker. */
+define('DB_COLLATE', '');
 
 /**#@+
- * Authentication Unique Keys and Salts.
+ * Unika autentiseringsnycklar och salter.
  *
- * Change these to different unique phrases!
- * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
- * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
+ * Ändra dessa till unika fraser!
+ * Du kan generera nycklar med {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
+ * Du kan när som helst ändra dessa nycklar för att göra aktiva cookies obrukbara, vilket tvingar alla användare att logga in på nytt.
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define('AUTH_KEY',         'Ange en unik fras här');
+define('SECURE_AUTH_KEY',  'Ange en unik fras här');
+define('LOGGED_IN_KEY',    'Ange en unik fras här');
+define('NONCE_KEY',        'Ange en unik fras här');
+define('AUTH_SALT',        'Ange en unik fras här');
+define('SECURE_AUTH_SALT', 'Ange en unik fras här');
+define('LOGGED_IN_SALT',   'Ange en unik fras här');
+define('NONCE_SALT',       'Ange en unik fras här');
 
 /**#@-*/
 
 /**
- * WordPress Database Table prefix.
+ * Tabellprefix för WordPress-databasen.
  *
- * You can have multiple installations in one database if you give each
- * a unique prefix. Only numbers, letters, and underscores please!
+ * Du kan ha flera installationer i samma databas om du ger varje installation ett unikt
+ * prefix. Använd endast siffror, bokstäver och understreck!
  */
 $table_prefix = 'wp_';
 
-/**
- * For developers: WordPress debugging mode.
+/** 
+ * För utvecklare: WordPress felsökningsläge. 
+ * 
+ * Ändra detta till true för att aktivera meddelanden under utveckling. 
+ * Det rekommenderas att man som tilläggsskapare och temaskapare använder WP_DEBUG 
+ * i sin utvecklingsmiljö. 
  *
- * Change this to true to enable the display of notices during development.
- * It is strongly recommended that plugin and theme developers use WP_DEBUG
- * in their development environments.
- *
- * For information on other constants that can be used for debugging,
- * visit the documentation.
- *
- * @link https://wordpress.org/support/article/debugging-in-wordpress/
- */
-define( 'WP_DEBUG', false );
+ * För information om andra konstanter som kan användas för felsökning, 
+ * se dokumentationen. 
+ * 
+ * @link https://codex.wordpress.org/Debugging_in_WordPress
+ */ 
+define('WP_DEBUG', false);
 
-/* That's all, stop editing! Happy publishing. */
+/* Det var allt, sluta redigera här och börja publicera! */
 
-/** Absolute path to the WordPress directory. */
-if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', __DIR__ . '/' );
-}
+/** Absolut sökväg till WordPress-katalogen. */
+if ( !defined('ABSPATH') )
+	define('ABSPATH', dirname(__FILE__) . '/');
 
-/** Sets up WordPress vars and included files. */
-require_once ABSPATH . 'wp-settings.php';
+/** Anger WordPress-värden och inkluderade filer. */
+require_once(ABSPATH . 'wp-settings.php');
