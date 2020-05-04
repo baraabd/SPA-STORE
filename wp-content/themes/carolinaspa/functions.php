@@ -167,3 +167,70 @@ function carolinaspa_homepage_blog_entries(){
 <?php
 }
 add_action('homepage', 'carolinaspa_homepage_blog_entries', 90);
+
+// Remove the Default WooCommerce Footer and create a new one!
+function carolinaspa_footer() {
+    remove_action('storefront_footer', 'storefront_credit', 20);
+    add_action('storefront_after_footer', 'carolinaspa_new_footer_text', 20);
+}
+add_action('init', 'carolinaspa_footer');
+function carolinaspa_new_footer_text() {
+    echo "<div class='reserved'>";
+    echo "<p>All Rights Reserved &copy; " . get_bloginfo('name') . " " . get_the_date('Y') . "</p>";
+    echo "</div>";
+}
+
+// // Display Currency in 3 code digits.
+// function carolinaspa_display_sek($symbol, $currency) {
+//     $symbol = $currency . " ";
+//     return $symbol;
+// }
+// add_filter('woocommerce_currency_symbol', 'carolinaspa_display_sek', 10, 2);
+
+
+// Change the number of columns in Shop.
+function carolinaspa_shop_columns($columns) {
+    return 4;
+}
+add_filter('loop_shop_columns', 'carolinaspa_shop_columns', 20);
+
+
+// //Change the number of products per page
+//  function carolinaspa_products_per_page($products) {
+//     $products = 4;
+//      return $products;
+//  }
+//  add_filter('loop_shop_per_page', 'carolinaspa_products_per_page', 20);
+
+
+ // Change filter name
+
+function carolinaspa_new_products_title_filter($orderby) {
+    $orderby['date'] = __('New Products First');
+    return $orderby;
+}
+add_filter('woocommerce_catalog_orderby', 'carolinaspa_new_products_title_filter', 40);
+
+// Display a Placeholder image when no featured image is added
+function carolinaspa_no_featured_image($image_url) {
+    $image_url = get_stylesheet_directory_uri() . '/img/no-image.jpg';
+    return $image_url;
+}
+add_filter('woocommerce_placeholder_img_src', 'carolinaspa_no_featured_image');
+
+//  //Removes a tab in the single page product
+//  function carolinaspa_remove_description($tabs) {
+//     unset($tabs['description']);
+//     return $tabs;
+//  }
+// add_filter('woocommerce_product_tabs', 'carolinaspa_remove_description', 20);
+
+// Change the Title for the description tab
+function carolinaspa_title_tab_description($tabs) {
+    global $post;
+    if($tabs['description']):
+        $tabs['description']['title'] = $post->post_title;
+    endif;  
+    return $tabs;
+}
+add_filter('woocommerce_product_tabs', 'carolinaspa_title_tab_description', 20);
