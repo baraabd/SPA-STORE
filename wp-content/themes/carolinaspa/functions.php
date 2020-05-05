@@ -10,9 +10,6 @@ return $args;
 add_filter('storefront_recent_products_args','carolinaspa_new_products');
 
 
-
-
-
 function carolinaspa_setup() {
     add_image_size('blog_entry', 400, 257, true);
 }
@@ -30,9 +27,6 @@ add_action('wp_enqueue_scripts', 'spastore_scripts');
 
 
 
-
-
-
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price');
 add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 35);
 
@@ -41,7 +35,7 @@ add_action('woocommerce_single_product_summary', 'woocommerce_template_single_pr
 
 
 
-// Remove the homepage content text and display the feature image
+/* // Remove the homepage content text and display the feature image
 function carolinaspa_homepage_content()
 {
     remove_action('homepage', 'storefront_homepage_content');
@@ -56,7 +50,7 @@ function carolinaspa_homepage_coupon()
     the_post_thumbnail();
     echo "</div>";
 }
-
+ */
 
 
 // Display Home Kits in the Homepage

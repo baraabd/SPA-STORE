@@ -388,3 +388,102 @@ Kollagen är uppbyggt av både essentiella och icke-essentiella aminosyror, där
 2020-05-04T12:07:30+00:00 DEBUG > Row 8 - preparing for import.
 2020-05-04T12:07:30+00:00 DEBUG > &#8220;135&#8221; ID already exists.
 2020-05-04T12:07:30+00:00 DEBUG Finished processing products.
+2020-05-04T23:39:16+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2020-05-04T23:39:16+00:00 DEBUG Parsing products CSV.
+2020-05-04T23:39:16+00:00 DEBUG Finished parsing products CSV.
+2020-05-04T23:39:16+00:00 DEBUG ---
+2020-05-04T23:39:16+00:00 DEBUG Processing products.
+2020-05-04T23:39:16+00:00 DEBUG > Row 1 - preparing for import.
+2020-05-04T23:39:16+00:00 DEBUG > Inserting Towel
+2020-05-04T23:39:16+00:00 DEBUG > Inserted - post ID is 12.
+2020-05-04T23:39:17+00:00 DEBUG > > Importing image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/00_towel_bluenavy.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > (Image already in the site)Inserted image attachment "http://localhost/SPA-STORE/wp-content/uploads/2020/04/00_towel_bluenavy.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > Imported image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/00_towel_bluenavy.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > Images set
+2020-05-04T23:39:17+00:00 DEBUG > Finished importing post ID 12.
+2020-05-04T23:39:17+00:00 DEBUG > Row 2 - preparing for import.
+2020-05-04T23:39:17+00:00 DEBUG > Inserting Home Kit
+2020-05-04T23:39:17+00:00 DEBUG > Inserted - post ID is 14.
+2020-05-04T23:39:17+00:00 DEBUG > > Importing image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/03_home_kit_1.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > (Image already in the site)Inserted image attachment "http://localhost/SPA-STORE/wp-content/uploads/2020/04/03_home_kit_1.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > Imported image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/03_home_kit_1.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > Importing image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/03_home_kit_2.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > (Image already in the site)Inserted image attachment "http://localhost/SPA-STORE/wp-content/uploads/2020/04/03_home_kit_2.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > Imported image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/03_home_kit_2.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > Importing image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/03_home_kit_3.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > (Image already in the site)Inserted image attachment "http://localhost/SPA-STORE/wp-content/uploads/2020/04/03_home_kit_3.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > Imported image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/03_home_kit_3.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > Importing image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/03_home_kit_4.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > (Image already in the site)Inserted image attachment "http://localhost/SPA-STORE/wp-content/uploads/2020/04/03_home_kit_4.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > Imported image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/03_home_kit_4.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > Images set
+2020-05-04T23:39:17+00:00 DEBUG > Finished importing post ID 14.
+2020-05-04T23:39:17+00:00 DEBUG > Row 3 - preparing for import.
+2020-05-04T23:39:17+00:00 DEBUG > Inserting Towel Pack with 3
+2020-05-04T23:39:17+00:00 DEBUG > Inserted - post ID is 19.
+2020-05-04T23:39:17+00:00 DEBUG > > Importing image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/09_towel_pack.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > (Image already in the site)Inserted image attachment "http://localhost/SPA-STORE/wp-content/uploads/2020/04/09_towel_pack.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > Imported image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/09_towel_pack.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > Images set
+2020-05-04T23:39:17+00:00 DEBUG > Finished importing post ID 19.
+2020-05-04T23:39:17+00:00 DEBUG > Row 4 - preparing for import.
+2020-05-04T23:39:17+00:00 DEBUG > Inserting Carolina Spa Guide (April 2020)
+2020-05-04T23:39:17+00:00 DEBUG > Inserted - post ID is 51.
+2020-05-04T23:39:17+00:00 DEBUG > > Importing image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/13_guide.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > (Image already in the site)Inserted image attachment "http://localhost/SPA-STORE/wp-content/uploads/2020/04/13_guide.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > Imported image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/13_guide.jpg"
+2020-05-04T23:39:17+00:00 DEBUG > > Images set
+2020-05-04T23:39:17+00:00 DEBUG > Finished importing post ID 51.
+2020-05-04T23:39:17+00:00 DEBUG > Row 5 - preparing for import.
+2020-05-04T23:39:17+00:00 DEBUG > Inserting Towel+Home kit+Guide
+2020-05-04T23:39:17+00:00 DEBUG > Inserted - post ID is 54.
+2020-05-04T23:39:18+00:00 DEBUG > > Importing image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/03_home_kit_3.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > (Image already in the site)Inserted image attachment "http://localhost/SPA-STORE/wp-content/uploads/2020/04/03_home_kit_3.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > Imported image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/03_home_kit_3.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > Importing image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/13_guide.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > (Image already in the site)Inserted image attachment "http://localhost/SPA-STORE/wp-content/uploads/2020/04/13_guide.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > Imported image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/13_guide.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > Importing image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/00_towel_bluenavy.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > (Image already in the site)Inserted image attachment "http://localhost/SPA-STORE/wp-content/uploads/2020/04/00_towel_bluenavy.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > Imported image "http://localhost/SPA-STORE/wp-content/uploads/2020/04/00_towel_bluenavy.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > Images set
+2020-05-04T23:39:18+00:00 DEBUG > Finished importing post ID 54.
+2020-05-04T23:39:18+00:00 DEBUG > Row 6 - preparing for import.
+2020-05-04T23:39:18+00:00 DEBUG > Inserting collagen skin &amp; nails
+2020-05-04T23:39:18+00:00 DEBUG > Inserted - post ID is 118.
+2020-05-04T23:39:18+00:00 DEBUG > > Importing image "http://localhost/SPA-STORE/wp-content/uploads/2020/05/05_soap_2.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > (Image already in the site)Inserted image attachment "http://localhost/SPA-STORE/wp-content/uploads/2020/05/05_soap_2.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > Imported image "http://localhost/SPA-STORE/wp-content/uploads/2020/05/05_soap_2.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > Images set
+2020-05-04T23:39:18+00:00 DEBUG > Finished importing post ID 118.
+2020-05-04T23:39:18+00:00 DEBUG > Row 7 - preparing for import.
+2020-05-04T23:39:18+00:00 DEBUG > Inserting Soap with Wheatgrass 4 Bars included
+2020-05-04T23:39:18+00:00 DEBUG > Inserted - post ID is 120.
+2020-05-04T23:39:18+00:00 DEBUG > > Importing image "http://localhost/SPA-STORE/wp-content/uploads/2020/05/10_soap_special.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > (Image already in the site)Inserted image attachment "http://localhost/SPA-STORE/wp-content/uploads/2020/05/10_soap_special.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > Imported image "http://localhost/SPA-STORE/wp-content/uploads/2020/05/10_soap_special.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > Images set
+2020-05-04T23:39:18+00:00 DEBUG > Finished importing post ID 120.
+2020-05-04T23:39:18+00:00 DEBUG > Row 8 - preparing for import.
+2020-05-04T23:39:18+00:00 DEBUG > Inserting Essential Oil
+2020-05-04T23:39:18+00:00 DEBUG > Inserted - post ID is 122.
+2020-05-04T23:39:18+00:00 DEBUG > > Importing image "http://localhost/SPA-STORE/wp-content/uploads/2020/05/06_essential_oil1.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > (Image already in the site)Inserted image attachment "http://localhost/SPA-STORE/wp-content/uploads/2020/05/06_essential_oil1.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > Imported image "http://localhost/SPA-STORE/wp-content/uploads/2020/05/06_essential_oil1.jpg"
+2020-05-04T23:39:18+00:00 DEBUG > > Images set
+2020-05-04T23:39:18+00:00 DEBUG > Finished importing post ID 122.
+2020-05-04T23:39:18+00:00 DEBUG > Row 9 - preparing for import.
+2020-05-04T23:39:18+00:00 DEBUG > Inserting collagen plus
+2020-05-04T23:39:18+00:00 DEBUG > Inserted - post ID is 128.
+2020-05-04T23:39:18+00:00 DEBUG > Finished importing post ID 128.
+2020-05-04T23:39:18+00:00 DEBUG Finished processing products.
+2020-05-04T23:39:19+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2020-05-04T23:39:19+00:00 DEBUG Parsing products CSV.
+2020-05-04T23:39:19+00:00 DEBUG Finished parsing products CSV.
+2020-05-04T23:39:19+00:00 DEBUG ---
+2020-05-04T23:39:19+00:00 DEBUG Processing products.
+2020-05-04T23:39:19+00:00 DEBUG > Row 1 - preparing for import.
+2020-05-04T23:39:19+00:00 DEBUG > Inserting Essential Oil
+2020-05-04T23:39:19+00:00 DEBUG > Inserted - post ID is 163.
+2020-05-04T23:39:19+00:00 DEBUG > Finished importing post ID 163.
+2020-05-04T23:39:19+00:00 DEBUG Finished processing products.
