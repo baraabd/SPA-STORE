@@ -443,3 +443,10 @@ function add_loginout_link( $items, $args ) {
    return $items;
 
 }
+
+
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page();
+	
+}
