@@ -414,3 +414,32 @@ function carolinaspa_blog_related_products() {
     <?php endif;
 }
 add_action('storefront_post_content_after', 'carolinaspa_blog_related_products');
+
+
+
+
+
+
+
+// Add log in link in menu
+
+
+add_filter( 'wp_nav_menu_items', 'add_loginout_link', 10, 2 );
+
+function add_loginout_link( $items, $args ) {
+
+   if (is_user_logged_in() && $args->theme_location == 'primary') {
+
+       $items .= '<li><a href="'. wp_logout_url( get_permalink( woocommerce_get_page_id( 'myaccount' ) ) ) .'">Log Out</a></li>';
+
+   }
+
+   elseif (!is_user_logged_in() && $args->theme_location == 'primary') {
+
+       $items .= '<li><a href="' . get_permalink( woocommerce_get_page_id( 'myaccount' ) ) . '">Log In</a></li>';
+
+   }
+
+   return $items;
+
+}
