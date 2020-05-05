@@ -14,7 +14,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+ -->
 <?php wp_head(); ?>
 </head>
 
