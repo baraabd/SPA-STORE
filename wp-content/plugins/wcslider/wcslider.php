@@ -30,7 +30,7 @@ return;
 } else{
     wp_enqueue_script ('jquery');
 }
-    wp_enqueue_script('bxslider',WCSLIDER_PATH.'/js/jquery.bxslider.min.js');
+    wp_enqueue_script('bxslider',WCSLIDER_PATH.'/js/jquery.bxslider.min.js',array(), 1, false);
    }
 
 add_action( 'wp_enqueue_scripts','wcslider_scripts' );
@@ -80,16 +80,9 @@ $(document).ready(function(){
       slideWidth:250,
       slideMargin:10,
       moveSlides:1,
-
-
-
   });
 });
-
-
 </script>
-
-
 <?php
 
 }
