@@ -1,0 +1,147 @@
+# Translation of Plugins - Better Font Awesome - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Better Font Awesome - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-12-08 05:21:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Better Font Awesome - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "mickeyskay@gmail.com"
+msgstr "mickeyskay@gmail.com"
+
+#. Author of the plugin/theme
+msgid "Mickey Kay"
+msgstr "Mickey Kay"
+
+#. Description of the plugin/theme
+msgid "The ultimate Font Awesome icon plugin for WordPress."
+msgstr "Det perfekta tillägget för Font Awesome-ikoner i Wordpress."
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/better-font-awesome"
+msgstr "http://wordpress.org/plugins/better-font-awesome"
+
+#: vendor/mickey-kay/better-font-awesome-library/better-font-awesome-library.php:1105
+msgid "Solution"
+msgstr "Lösning"
+
+#: vendor/mickey-kay/better-font-awesome-library/better-font-awesome-library.php:1101
+msgid "<b>Don't worry! Better Font Awesome will still render using the included fallback version:</b> "
+msgstr "<b>Ingen fara! Better Font Awesome kommer fortfarande visas med den inbyggda reservversionen:</b>"
+
+#: vendor/mickey-kay/better-font-awesome-library/better-font-awesome-library.php:1091
+msgid "The attempt to fetch the remote Font Awesome stylesheet failed with the following error: %s %s The embedded fallback Font Awesome will be used instead (version: %s)."
+msgstr "Försöket att hämta fjärrversionen av Font Awesome CSS misslyckades med följande fel: %s %s Den egna reserv-versionen av Font Awesome kommer användas i stället (version: %s)."
+
+#: vendor/mickey-kay/better-font-awesome-library/better-font-awesome-library.php:1089
+msgid "Remote CSS Error"
+msgstr "CSS-fel på annan server"
+
+#: vendor/mickey-kay/better-font-awesome-library/better-font-awesome-library.php:1079
+msgid "The attempt to reach the jsDelivr API server failed with the following error: %s"
+msgstr "Versionsval är för närvarande inte tillgängligt. Försöket att nå jsDelivr API-servern misslyckades med följande fel: %s"
+
+#: vendor/mickey-kay/better-font-awesome-library/better-font-awesome-library.php:1077
+msgid "API Error"
+msgstr "API-fel"
+
+#: vendor/mickey-kay/better-font-awesome-library/better-font-awesome-library.php:1051
+msgid "Insert Icon"
+msgstr "Infoga ikon"
+
+#: vendor/mickey-kay/better-font-awesome-library/better-font-awesome-library.php:491
+msgid "The jsDelivr API servers appear to be temporarily unavailable."
+msgstr "Servrarna för jsDelivr-API kan för tillfället inte nås."
+
+#: better-font-awesome.php:614
+msgid ""
+"<h3>Usage</h3>\n"
+"                     <b>Font Awesome version 4.x +</b>&nbsp;&nbsp;&nbsp;<small><a href=\"http://fontawesome.io/examples/\">See all available options &raquo;</a></small><br /><br />\n"
+"                     <i class=\"icon-coffee fa fa-coffee\"></i> <code>[icon name=\"coffee\"]</code> or <code>&lt;i class=\"fa-coffee\"&gt;&lt;/i&gt;</code><br /><br />\n"
+"                     <i class=\"icon-coffee fa fa-coffee icon-2x fa-2x\"></i> <code>[icon name=\"coffee\" class=\"fa-2x\"]</code> or <code>&lt;i class=\"fa-coffee fa-2x\"&gt;&lt;/i&gt;</code><br /><br />\n"
+"                     <i class=\"icon-coffee fa fa-coffee icon-2x fa-2x icon-rotate-90 fa-rotate-90\"></i> <code>[icon name=\"coffee\" class=\"fa-2x fa-rotate-90\"]</code> or <code>&lt;i class=\"fa-coffee fa-2x fa-rotate-90\"&gt;&lt;/i&gt;</code><br /><br /><br />\n"
+"                     <b>Font Awesome version 3.x</b>&nbsp;&nbsp;&nbsp;<small><a href=\"http://fontawesome.io/3.2.1/examples/\">See all available options &raquo;</a></small><br /><br />\n"
+"                     <i class=\"icon-coffee fa fa-coffee\"></i> <code>[icon name=\"coffee\"]</code> or <code>&lt;i class=\"icon icon-coffee\"&gt;&lt;/i&gt;</code><br /><br />\n"
+"                     <i class=\"icon-coffee fa fa-coffee icon-2x fa-2x\"></i> <code>[icon name=\"coffee\" class=\"icon-2x\"]</code> or <code>&lt;i class=\"icon icon-coffee icon-2x\"&gt;&lt;/i&gt;</code><br /><br />\n"
+"                     <i class=\"icon-coffee fa fa-coffee icon-2x fa-2x icon-rotate-90 fa-rotate-90\"></i> <code>[icon name=\"coffee\" class=\"icon-2x icon-rotate-90\"]</code> or <code>&lt;i class=\"icon icon-coffee icon-2x icon-rotate-90\"&gt;&lt;/i&gt;</code>"
+msgstr ""
+"<h3>Användning</h3>\n"
+"                     <b>Font Awesome version 4.x +</b>&nbsp;&nbsp;&nbsp;<small><a href=\"http://fontawesome.io/examples/\">Visa tillgängliga alternativ &raquo;</a></small><br /><br />\n"
+"                     <i class=\"icon-coffee fa fa-coffee\"></i> <code>[icon name=\"coffee\"]</code> or <code>&lt;i class=\"fa-coffee\"&gt;&lt;/i&gt;</code><br /><br />\n"
+"                     <i class=\"icon-coffee fa fa-coffee icon-2x fa-2x\"></i> <code>[icon name=\"coffee\" class=\"fa-2x\"]</code> or <code>&lt;i class=\"fa-coffee fa-2x\"&gt;&lt;/i&gt;</code><br /><br />\n"
+"                     <i class=\"icon-coffee fa fa-coffee icon-2x fa-2x icon-rotate-90 fa-rotate-90\"></i> <code>[icon name=\"coffee\" class=\"fa-2x fa-rotate-90\"]</code> or <code>&lt;i class=\"fa-coffee fa-2x fa-rotate-90\"&gt;&lt;/i&gt;</code><br /><br /><br />\n"
+"                     <b>Font Awesome version 3.x</b>&nbsp;&nbsp;&nbsp;<small><a href=\"http://fontawesome.io/3.2.1/examples/\">Visa tillgängliga alternativ &raquo;</a></small><br /><br />\n"
+"                     <i class=\"icon-coffee fa fa-coffee\"></i> <code>[icon name=\"coffee\"]</code> or <code>&lt;i class=\"icon icon-coffee\"&gt;&lt;/i&gt;</code><br /><br />\n"
+"                     <i class=\"icon-coffee fa fa-coffee icon-2x fa-2x\"></i> <code>[icon name=\"coffee\" class=\"icon-2x\"]</code> or <code>&lt;i class=\"icon icon-coffee icon-2x\"&gt;&lt;/i&gt;</code><br /><br />\n"
+"                     <i class=\"icon-coffee fa fa-coffee icon-2x fa-2x icon-rotate-90 fa-rotate-90\"></i> <code>[icon name=\"coffee\" class=\"icon-2x icon-rotate-90\"]</code> or <code>&lt;i class=\"icon icon-coffee icon-2x icon-rotate-90\"&gt;&lt;/i&gt;</code>"
+
+#: better-font-awesome.php:567
+#: vendor/mickey-kay/better-font-awesome-library/better-font-awesome-library.php:1107
+msgid "This may be the result of a temporary server or connectivity issue which will resolve shortly. However if the problem persists please file a support ticket on the %splugin forum%s, citing the errors listed above. "
+msgstr "Detta kan bero på ett tillfälligt problem med server eller förbindelse. Om problemet kvarstår, vänligen öppna ett supportärende i %stilläggets forum%s och ange ovanstående felmeddelande."
+
+#: better-font-awesome.php:560
+msgid "Font Awesome will still render using version: %s"
+msgstr "För visning fortsätter Font Awesome använda version: %s"
+
+#: better-font-awesome.php:553
+msgid "Version selection is currently unavailable. The attempt to reach the jsDelivr API server failed with the following error: %s"
+msgstr "Versionsval är för närvarande inte tillgängligt. Försöket att nå jsDelivr API-servern misslyckades med följande fel: %s"
+
+#: better-font-awesome.php:493 better-font-awesome.php:519
+msgid "Always Latest"
+msgstr "Alltid senaste"
+
+#: better-font-awesome.php:420
+msgid "Hide the default admin warnings that are shown when API and CDN errors occur."
+msgstr "Dölj standardvarningar som visas vid API- och CDN-fel."
+
+#: better-font-awesome.php:414
+msgid "Hide admin notices"
+msgstr "Dölj admin-notiser"
+
+#: better-font-awesome.php:408
+msgid "Attempt to remove Font Awesome CSS and shortcodes added by other plugins and themes."
+msgstr "Försök att ta bort Font Awesome CSS och kortkoder som lagts till av andra tillägg och teman."
+
+#: better-font-awesome.php:402
+msgid "Remove existing Font Awesome"
+msgstr "Ta bort befintlig Font Awesome"
+
+#: better-font-awesome.php:396
+msgid "Whether to include the minified version of the CSS (checked), or the unminified version (unchecked)."
+msgstr "Markera om komprimerad version av CSS skall användas."
+
+#: better-font-awesome.php:390
+msgid "Use minified CSS"
+msgstr "Använd komprimerad CSS"
+
+#: better-font-awesome.php:381
+msgid "Version"
+msgstr "Version"
+
+#: better-font-awesome.php:350
+msgid "Save Settings"
+msgstr "Spara inställningar"
+
+#: better-font-awesome.php:238
+msgid "Back to the plugins page &rarr;"
+msgstr "Åter till sidan för tillägg &rarr;"
+
+#: better-font-awesome.php:237
+msgid "It appears that Better Font Awesome is missing it's <a href=\"https://github.com/MickeyKay/better-font-awesome-library\" target=\"_blank\">core library</a>, which typically occurs when cloning the Git repository and failing to run <code>composer install</code>. Please refer to the plugin's <a href=\"https://github.com/MickeyKay/better-font-awesome\" target=\"_blank\">installation instructions</a> for details on how to properly install Better Font Awesome via Git. If you installed from within WordPress, or via the wordpress.org repo, then chances are the install failed and you can try again. If the issue persists, please create a new topic on the plugin's <a href=\"http://wordpress.org/support/plugin/better-font-awesome\" target=\"_blank\">support forum</a> or file an issue on the <a href=\"https://github.com/MickeyKay/better-font-awesome/issues\" target=\"_blank\">Github repo</a>."
+msgstr "Det verkar som Better Font Awesome saknar sitt <a href=\"https://github.com/MickeyKay/better-font-awesome-library\" target=\"_blank\">eget kärnbibliotek</a>. Detta sker vanligen om man klonar Git-repo och missar att köra <code>composer install</code>. Vänligen se tilläggets <a href=\"https://github.com/MickeyKay/better-font-awesome\" target=\"_blank\">installationsanvisningar</a> för hur man installerar Better Font Awesome via Git. Om du installerade inifrån WordPress, eller via wordpress.org repo, misslyckades förmodligen installationen och du kan försöka igen. Om problemet kvarstår, vänligen skapa ett ärende i tilläggets <a href=\"http://wordpress.org/support/plugin/better-font-awesome\" target=\"_blank\">supportforum</a> eller på <a href=\"https://github.com/MickeyKay/better-font-awesome/issues\" target=\"_blank\">Github-repo</a>."
+
+#. #-#-#-#-#  better-font-awesome-code.pot (Better Font Awesome 1.7.1) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: better-font-awesome.php:186 better-font-awesome.php:236
+#: vendor/mickey-kay/better-font-awesome-library/better-font-awesome-library.php:1071
+msgid "Better Font Awesome"
+msgstr "Better Font Awesome"

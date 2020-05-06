@@ -43,6 +43,15 @@ ul.products li.product.product-category h2 {
     font-size: 1.4em;
 }
 
+.hentry.type-page .entry-header {
+    display: none;
+}
+
+.page-template-template-homepage .entry-content {
+    width: 100%;
+    max-width: initial;
+}
+
 
 /** HomePage Categories **/
 

@@ -10,9 +10,6 @@ return $args;
 add_filter('storefront_recent_products_args','carolinaspa_new_products');
 
 
-
-
-
 function carolinaspa_setup() {
     add_image_size('blog_entry', 400, 257, true);
 }
@@ -30,9 +27,6 @@ add_action('wp_enqueue_scripts', 'spastore_scripts');
 
 
 
-
-
-
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price');
 add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 35);
 
@@ -41,7 +35,7 @@ add_action('woocommerce_single_product_summary', 'woocommerce_template_single_pr
 
 
 
-// Remove the homepage content text and display the feature image
+/* // Remove the homepage content text and display the feature image
 function carolinaspa_homepage_content()
 {
     remove_action('homepage', 'storefront_homepage_content');
@@ -56,7 +50,7 @@ function carolinaspa_homepage_coupon()
     the_post_thumbnail();
     echo "</div>";
 }
-
+ */
 
 
 // Display Home Kits in the Homepage
@@ -420,3 +414,33 @@ function carolinaspa_blog_related_products() {
     <?php endif;
 }
 add_action('storefront_post_content_after', 'carolinaspa_blog_related_products');
+
+
+
+
+
+
+
+// Add log in link in menu
+
+
+add_filter( 'wp_nav_menu_items', 'add_loginout_link', 10, 2 );
+
+function add_loginout_link( $items, $args ) {
+
+   if (is_user_logged_in() && $args->theme_location == 'primary') {
+
+       $items .= '<li><a href="'. wp_logout_url( get_permalink( woocommerce_get_page_id( 'myaccount' ) ) ) .'">Log Out</a></li>';
+
+   }
+
+   elseif (!is_user_logged_in() && $args->theme_location == 'primary') {
+
+       $items .= '<li><a href="' . get_permalink( woocommerce_get_page_id( 'myaccount' ) ) . '">Log In</a></li>';
+
+   }
+
+   return $items;
+
+}
+
